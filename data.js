@@ -2,7 +2,7 @@ window.FCPL_PLAYERS=[
   {
     "id": "P001",
     "name": "Kowshik Nagarajan",
-    "photo": "https://drive.google.com/thumbnail?id=1FzKKs6dT0iWIoaZ9xGdd-5JVjsebaAa_&sz=w1000",
+    "photo": "https://drive.google.com/thumbnail?id=1FzKKs6dT0iWIoaZ9xGdd-5JVjsebaAa_&sz=w1200",
     "age": 42,
     "phase": "Phase 1",
     "experience": "Intermediate",
@@ -17,7 +17,7 @@ window.FCPL_PLAYERS=[
   {
     "id": "P002",
     "name": "SAMI",
-    "photo": "https://drive.google.com/thumbnail?id=1VRaEfpueZ43rLRp4YmzsqW_oUE0RNOdn&sz=w1000",
+    "photo": "https://drive.google.com/thumbnail?id=1VRaEfpueZ43rLRp4YmzsqW_oUE0RNOdn&sz=w1200",
     "age": 34,
     "phase": "Phase 2",
     "experience": "Experienced",
@@ -32,7 +32,7 @@ window.FCPL_PLAYERS=[
   {
     "id": "P003",
     "name": "Yash Nichani M",
-    "photo": "https://drive.google.com/thumbnail?id=1Bxl05shqB8JA7mvnz7TxRmBlUYkGv9As&sz=w1000",
+    "photo": "https://drive.google.com/thumbnail?id=1Bxl05shqB8JA7mvnz7TxRmBlUYkGv9As&sz=w1200",
     "age": 27,
     "phase": "Phase 1",
     "experience": "Beginner",
@@ -47,7 +47,7 @@ window.FCPL_PLAYERS=[
   {
     "id": "P004",
     "name": "Kumar valliappan S",
-    "photo": "https://drive.google.com/thumbnail?id=1fwfr114GZvKf5p0LRo1-5WFikSesrAmZ&sz=w1000",
+    "photo": "https://drive.google.com/thumbnail?id=1fwfr114GZvKf5p0LRo1-5WFikSesrAmZ&sz=w1200",
     "age": 29,
     "phase": "Phase 2",
     "experience": "Casual",
@@ -62,7 +62,7 @@ window.FCPL_PLAYERS=[
   {
     "id": "P005",
     "name": "K NARAYANAN",
-    "photo": "https://drive.google.com/thumbnail?id=1UK_XZyeOxr-gFPa-mqfELY_0M7tB1m47&sz=w1000",
+    "photo": "https://drive.google.com/thumbnail?id=1UK_XZyeOxr-gFPa-mqfELY_0M7tB1m47&sz=w1200",
     "age": 66,
     "phase": "Phase 1",
     "experience": "Intermediate",
@@ -77,7 +77,7 @@ window.FCPL_PLAYERS=[
   {
     "id": "P006",
     "name": "Dakshan Shriram",
-    "photo": "https://drive.google.com/thumbnail?id=12z5BNwUVYuvd-1NRqbnPxrAnsgRxczUE&sz=w1000",
+    "photo": "https://drive.google.com/thumbnail?id=12z5BNwUVYuvd-1NRqbnPxrAnsgRxczUE&sz=w1200",
     "age": 30,
     "phase": "Phase 1",
     "experience": "Intermediate",
@@ -92,7 +92,7 @@ window.FCPL_PLAYERS=[
   {
     "id": "P007",
     "name": "Vijaya Prabhu",
-    "photo": "https://drive.google.com/thumbnail?id=1PpdhRBtTkmGFyCudCkhFZ5U_OaBAvmWO&sz=w1000",
+    "photo": "https://drive.google.com/thumbnail?id=1PpdhRBtTkmGFyCudCkhFZ5U_OaBAvmWO&sz=w1200",
     "age": 40,
     "phase": "Phase 1",
     "experience": "Casual",
@@ -107,7 +107,7 @@ window.FCPL_PLAYERS=[
   {
     "id": "P008",
     "name": "Deepak Sekar",
-    "photo": "https://drive.google.com/thumbnail?id=1f8yaYMh89rNH9vM59wvZAnUGYl12Pabk&sz=w1000",
+    "photo": "https://drive.google.com/thumbnail?id=1f8yaYMh89rNH9vM59wvZAnUGYl12Pabk&sz=w1200",
     "age": 39,
     "phase": "Phase 2",
     "experience": "Experienced",
@@ -122,7 +122,7 @@ window.FCPL_PLAYERS=[
   {
     "id": "P009",
     "name": "Shravan kumar",
-    "photo": "https://drive.google.com/thumbnail?id=1IFVOW9Dd5gGePp2OSNj-OyA1ZNfOk1-_&sz=w1000",
+    "photo": "https://drive.google.com/thumbnail?id=1IFVOW9Dd5gGePp2OSNj-OyA1ZNfOk1-_&sz=w1200",
     "age": 33,
     "phase": "Phase 1",
     "experience": "Intermediate",
@@ -152,7 +152,7 @@ window.FCPL_PLAYERS=[
   {
     "id": "P011",
     "name": "Kannan Mohanasundaram",
-    "photo": "https://drive.google.com/thumbnail?id=1W1bjxz-IOP5DB0wKfGdv_tfozaOrwFXJ&sz=w1000",
+    "photo": "https://drive.google.com/thumbnail?id=1W1bjxz-IOP5DB0wKfGdv_tfozaOrwFXJ&sz=w1200",
     "age": 36,
     "phase": "Phase 1",
     "experience": "Experienced",
@@ -182,7 +182,7 @@ window.FCPL_PLAYERS=[
   {
     "id": "P013",
     "name": "Hemansu",
-    "photo": "https://drive.google.com/thumbnail?id=1MPojcMv8mJe_L0FPhU9vv2_nAcMmPRe_&sz=w1000",
+    "photo": "https://drive.google.com/thumbnail?id=1MPojcMv8mJe_L0FPhU9vv2_nAcMmPRe_&sz=w1200",
     "age": 43,
     "phase": "Phase 1",
     "experience": "Experienced",
@@ -197,7 +197,7 @@ window.FCPL_PLAYERS=[
   {
     "id": "P014",
     "name": "Praveen Kumar",
-    "photo": "https://drive.google.com/thumbnail?id=19JbTPfSHekfL0VKdP2fwWkYHGVAGDV1U&sz=w1000",
+    "photo": "https://drive.google.com/thumbnail?id=19JbTPfSHekfL0VKdP2fwWkYHGVAGDV1U&sz=w1200",
     "age": 37,
     "phase": "Phase 1",
     "experience": "Casual",
@@ -212,7 +212,7 @@ window.FCPL_PLAYERS=[
   {
     "id": "P015",
     "name": "Kaleeswaran",
-    "photo": "https://drive.google.com/thumbnail?id=1Urr0ZDj8kYXVAdUI3PCkmy6yi1WmKsD9&sz=w1000",
+    "photo": "https://drive.google.com/thumbnail?id=1Urr0ZDj8kYXVAdUI3PCkmy6yi1WmKsD9&sz=w1200",
     "age": 29,
     "phase": "Phase 2",
     "experience": "Intermediate",
@@ -227,7 +227,7 @@ window.FCPL_PLAYERS=[
   {
     "id": "P016",
     "name": "Adharsh vinodh",
-    "photo": "https://drive.google.com/thumbnail?id=1k_hGky4GtTBTGBxRMEBBzaE8Rgj5lLxD&sz=w1000",
+    "photo": "https://drive.google.com/thumbnail?id=1k_hGky4GtTBTGBxRMEBBzaE8Rgj5lLxD&sz=w1200",
     "age": 28,
     "phase": "Phase 2",
     "experience": "Intermediate",
@@ -242,7 +242,7 @@ window.FCPL_PLAYERS=[
   {
     "id": "P017",
     "name": "Kirubakaran Venkatesan",
-    "photo": "https://drive.google.com/thumbnail?id=1K6dYQmqKJd8_1Q7GeEkg3QSk9-IYoQmA&sz=w1000",
+    "photo": "https://drive.google.com/thumbnail?id=1K6dYQmqKJd8_1Q7GeEkg3QSk9-IYoQmA&sz=w1200",
     "age": 27,
     "phase": "Phase 1",
     "experience": "Intermediate",
@@ -257,7 +257,7 @@ window.FCPL_PLAYERS=[
   {
     "id": "P018",
     "name": "Irfan",
-    "photo": "https://drive.google.com/thumbnail?id=18ueYU1lZamJRWhFnBlMAaTui8M1eVT1o&sz=w1000",
+    "photo": "https://drive.google.com/thumbnail?id=18ueYU1lZamJRWhFnBlMAaTui8M1eVT1o&sz=w1200",
     "age": 32,
     "phase": "Phase 2",
     "experience": "Experienced",
@@ -287,7 +287,7 @@ window.FCPL_PLAYERS=[
   {
     "id": "P020",
     "name": "Navanee",
-    "photo": "https://drive.google.com/thumbnail?id=1x7QmbTSxQfgiCwlDROGgY-aqlnlo6UQM&sz=w1000",
+    "photo": "https://drive.google.com/thumbnail?id=1x7QmbTSxQfgiCwlDROGgY-aqlnlo6UQM&sz=w1200",
     "age": 30,
     "phase": "Phase 4",
     "experience": "Intermediate",
@@ -317,7 +317,7 @@ window.FCPL_PLAYERS=[
   {
     "id": "P022",
     "name": "Abhishek Hore",
-    "photo": "https://drive.google.com/thumbnail?id=117xOnAVH6kE2DDlswfdUrvbwY4OeVu3V&sz=w1000",
+    "photo": "https://drive.google.com/thumbnail?id=117xOnAVH6kE2DDlswfdUrvbwY4OeVu3V&sz=w1200",
     "age": 46,
     "phase": "Phase 2",
     "experience": "Intermediate",
@@ -332,7 +332,7 @@ window.FCPL_PLAYERS=[
   {
     "id": "P023",
     "name": "Prabhu M",
-    "photo": "https://drive.google.com/thumbnail?id=15L22Aa6A0RMbQyBuS7TbMDsPvx7vdhnw&sz=w1000",
+    "photo": "https://drive.google.com/thumbnail?id=15L22Aa6A0RMbQyBuS7TbMDsPvx7vdhnw&sz=w1200",
     "age": 40,
     "phase": "Phase 2",
     "experience": "Casual",
@@ -362,7 +362,7 @@ window.FCPL_PLAYERS=[
   {
     "id": "P025",
     "name": "Arshad S",
-    "photo": "https://drive.google.com/thumbnail?id=1bjBbN0ozQUxX7Bwc_o7IrJtxWcXCYkIr&sz=w1000",
+    "photo": "https://drive.google.com/thumbnail?id=1bjBbN0ozQUxX7Bwc_o7IrJtxWcXCYkIr&sz=w1200",
     "age": 35,
     "phase": "Phase 2",
     "experience": "Experienced",
@@ -392,7 +392,7 @@ window.FCPL_PLAYERS=[
   {
     "id": "P027",
     "name": "Joshua Ponsam P S",
-    "photo": "https://drive.google.com/thumbnail?id=1vh9B9knAJx7K4Xj6YEW8xkVNXHEmEBjM&sz=w1000",
+    "photo": "https://drive.google.com/thumbnail?id=1vh9B9knAJx7K4Xj6YEW8xkVNXHEmEBjM&sz=w1200",
     "age": 29,
     "phase": "Phase 1",
     "experience": "Casual",
@@ -422,7 +422,7 @@ window.FCPL_PLAYERS=[
   {
     "id": "P029",
     "name": "Ranjith Madhana Kaandhan (RMK)",
-    "photo": "https://drive.google.com/thumbnail?id=1PCs133CCMy7SjqmcxFST2HAyh3r_CIBp&sz=w1000",
+    "photo": "https://drive.google.com/thumbnail?id=1PCs133CCMy7SjqmcxFST2HAyh3r_CIBp&sz=w1200",
     "age": 34,
     "phase": "Phase 3",
     "experience": "Intermediate",
@@ -437,7 +437,7 @@ window.FCPL_PLAYERS=[
   {
     "id": "P030",
     "name": "Vinoth Kumar Kannan",
-    "photo": "https://drive.google.com/thumbnail?id=16Tv3ne_hCGcpsRw4MKdvto7V7H2Uatqk&sz=w1000",
+    "photo": "https://drive.google.com/thumbnail?id=16Tv3ne_hCGcpsRw4MKdvto7V7H2Uatqk&sz=w1200",
     "age": 44,
     "phase": "Phase 1",
     "experience": "Experienced",
@@ -467,7 +467,7 @@ window.FCPL_PLAYERS=[
   {
     "id": "P032",
     "name": "Rajan S",
-    "photo": "https://drive.google.com/thumbnail?id=1GyAPF-AUuEddhrR_Ua76033wlVbfvODD&sz=w1000",
+    "photo": "https://drive.google.com/thumbnail?id=1GyAPF-AUuEddhrR_Ua76033wlVbfvODD&sz=w1200",
     "age": 36,
     "phase": "Phase 2",
     "experience": "Experienced",
@@ -512,7 +512,7 @@ window.FCPL_PLAYERS=[
   {
     "id": "P035",
     "name": "Shishir Kumar",
-    "photo": "https://drive.google.com/thumbnail?id=16Q-yGCYeZQjKzAcI0whr2_kvcTl1yQmG&sz=w1000",
+    "photo": "https://drive.google.com/thumbnail?id=16Q-yGCYeZQjKzAcI0whr2_kvcTl1yQmG&sz=w1200",
     "age": 39,
     "phase": "Phase 1",
     "experience": "Experienced",
@@ -527,7 +527,7 @@ window.FCPL_PLAYERS=[
   {
     "id": "P036",
     "name": "Suresh Nandan",
-    "photo": "https://drive.google.com/thumbnail?id=1Qo3wfUDCnugmyvDuw7VCg_AxIEWRZ-ea&sz=w1000",
+    "photo": "https://drive.google.com/thumbnail?id=1Qo3wfUDCnugmyvDuw7VCg_AxIEWRZ-ea&sz=w1200",
     "age": 42,
     "phase": "Phase 1",
     "experience": "Experienced",
@@ -572,7 +572,7 @@ window.FCPL_PLAYERS=[
   {
     "id": "P039",
     "name": "Swaroop",
-    "photo": "https://drive.google.com/thumbnail?id=1ITROFJ1JoIEw22cwuKUXQ_Tke1qFkbkU&sz=w1000",
+    "photo": "https://drive.google.com/thumbnail?id=1ITROFJ1JoIEw22cwuKUXQ_Tke1qFkbkU&sz=w1200",
     "age": 31,
     "phase": "Phase 1",
     "experience": "Casual",
@@ -587,7 +587,7 @@ window.FCPL_PLAYERS=[
   {
     "id": "P040",
     "name": "Hanan Abel",
-    "photo": "https://drive.google.com/thumbnail?id=1OSiyR3A0nEAoQ9L_1aX2oJsnioufRO03&sz=w1000",
+    "photo": "https://drive.google.com/thumbnail?id=1OSiyR3A0nEAoQ9L_1aX2oJsnioufRO03&sz=w1200",
     "age": 23,
     "phase": "Phase 1",
     "experience": "Intermediate",
@@ -647,7 +647,7 @@ window.FCPL_PLAYERS=[
   {
     "id": "P044",
     "name": "BISHNU PRASAD PATRO",
-    "photo": "https://drive.google.com/thumbnail?id=1OHeCQ0zisME17dhYMyVPRp-uMGDj0Ah0&sz=w1000",
+    "photo": "https://drive.google.com/thumbnail?id=1OHeCQ0zisME17dhYMyVPRp-uMGDj0Ah0&sz=w1200",
     "age": 46,
     "phase": "Phase 1",
     "experience": "Experienced",
@@ -675,4 +675,12 @@ window.FCPL_PLAYERS=[
     "soldPrice": ""
   }
 ];
-window.FCPL_TEAMS=["Team 1","Team 2","Team 3","Team 4","Team 5","Team 6"];
+
+window.FCPL_TEAMS=[
+  "Team 1",
+  "Team 2",
+  "Team 3",
+  "Team 4",
+  "Team 5",
+  "Team 6"
+];
