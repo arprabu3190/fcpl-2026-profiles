@@ -1,49 +1,49 @@
-﻿Player ID,Source Row,Player Name,Age (admin check only),Displayed Category,Phase,Experience,Previous Tournament,Primary Role,Batting Style,Bowling Style,Photo Provided,Google Drive File ID
-P001,2,Kowshik Nagarajan,42,Seasoned,Phase 1,Intermediate,Yes,Batsman,Right-Handed,Right-arm Spin,Yes,1FzKKs6dT0iWIoaZ9xGdd-5JVjsebaAa_
-P002,3,SAMI,34,Experienced,Phase 2,Experienced,No,All-Rounder,Right-Handed,Right-arm Spin,Yes,1VRaEfpueZ43rLRp4YmzsqW_oUE0RNOdn
-P003,4,Yash Nichani M,27,Prime,Phase 1,Beginner,No,All-Rounder,Right-Handed,Right-arm Medium Fast,Yes,1Bxl05shqB8JA7mvnz7TxRmBlUYkGv9As
-P004,5,Kumar valliappan S,29,Prime,Phase 2,Casual,No,Bowler,Right-Handed,Right-arm Medium Fast,Yes,1fwfr114GZvKf5p0LRo1-5WFikSesrAmZ
-P005,6,K NARAYANAN,66,Veteran,Phase 1,Intermediate,No,All-Rounder,Right-Handed,Right-arm Spin,Yes,1UK_XZyeOxr-gFPa-mqfELY_0M7tB1m47
-P006,7,Dakshan Shriram,30,Prime,Phase 1,Intermediate,Yes,Batsman,Right-Handed,Right-arm Spin,Yes,12z5BNwUVYuvd-1NRqbnPxrAnsgRxczUE
-P007,8,Vijaya Prabhu,40,Seasoned,Phase 1,Casual,No,Batsman,Right-Handed,Not Applicable,Yes,1PpdhRBtTkmGFyCudCkhFZ5U_OaBAvmWO
-P008,9,Deepak Sekar,39,Experienced,Phase 2,Experienced,Yes,Batsman,Right-Handed,Right-arm Medium Fast,Yes,1f8yaYMh89rNH9vM59wvZAnUGYl12Pabk
-P009,10,Shravan kumar,33,Experienced,Phase 1,Intermediate,Yes,All-Rounder,Left-Handed,Right-arm Medium Fast,Yes,1IFVOW9Dd5gGePp2OSNj-OyA1ZNfOk1-_
-P010,11,Essaki Muthu Mahesh,31,Experienced,Phase 2,Casual,No,Batsman,Left-Handed,Right-arm Medium Fast,No,
-P011,12,Kannan Mohanasundaram,36,Experienced,Phase 1,Experienced,Yes,All-Rounder,Right-Handed,Right-arm Medium Fast,Yes,1W1bjxz-IOP5DB0wKfGdv_tfozaOrwFXJ
-P012,13,Rafi,34,Experienced,Phase 1,Intermediate,Yes,All-Rounder,Right-Handed,Right-arm Medium Fast,No,
-P013,14,Hemansu,43,Seasoned,Phase 1,Experienced,Yes,All-Rounder,Right-Handed,Right-arm Fast,Yes,1MPojcMv8mJe_L0FPhU9vv2_nAcMmPRe_
-P014,15,Praveen Kumar,37,Experienced,Phase 1,Casual,No,Batsman,Right-Handed,Right-arm Spin,Yes,19JbTPfSHekfL0VKdP2fwWkYHGVAGDV1U
-P015,16,Kaleeswaran,29,Prime,Phase 2,Intermediate,Yes,All-Rounder,Right-Handed,Right-arm Medium Fast,Yes,1Urr0ZDj8kYXVAdUI3PCkmy6yi1WmKsD9
-P016,17,Adharsh vinodh,28,Prime,Phase 2,Intermediate,Yes,All-Rounder,Right-Handed,Right-arm Medium Fast,Yes,1k_hGky4GtTBTGBxRMEBBzaE8Rgj5lLxD
-P017,18,Kirubakaran Venkatesan,27,Prime,Phase 1,Intermediate,Yes,All-Rounder,Right-Handed,Right-arm Medium Fast,Yes,1K6dYQmqKJd8_1Q7GeEkg3QSk9-IYoQmA
-P018,19,Irfan,32,Experienced,Phase 2,Experienced,Yes,All-Rounder,Right-Handed,Right-arm Fast,Yes,18ueYU1lZamJRWhFnBlMAaTui8M1eVT1o
-P019,20,Prathish kumar,29,Prime,Phase 2,Casual,Yes,Batsman,Right-Handed,Not Applicable,No,
-P020,21,Navanee,30,Prime,Phase 4,Intermediate,Yes,All-Rounder,Right-Handed,Right-arm Medium Fast,Yes,1x7QmbTSxQfgiCwlDROGgY-aqlnlo6UQM
-P021,22,Prashanth,37,Experienced,Phase 2,Casual,No,All-Rounder,Right-Handed,Right-arm Medium Fast,No,
-P022,23,Abhishek Hore,46,Veteran,Phase 2,Intermediate,Yes,Batsman,Right-Handed,Right-arm Spin,Yes,117xOnAVH6kE2DDlswfdUrvbwY4OeVu3V
-P023,24,Prabhu M,40,Seasoned,Phase 2,Casual,Yes,All-Rounder,Right-Handed,Right-arm Medium Fast,Yes,15L22Aa6A0RMbQyBuS7TbMDsPvx7vdhnw
-P024,25,Arshad S,35,Experienced,Phase 2,Experienced,Yes,All-Rounder,Right-Handed,Right-arm Medium Fast,Yes,1bjBbN0ozQUxX7Bwc_o7IrJtxWcXCYkIr
-P025,26,Arul Prakash,54,Veteran,Phase 1,Casual,Yes,All-Rounder,Right-Handed,Right-arm Medium Fast,No,
-P026,27,Joshua Ponsam P S,29,Prime,Phase 1,Casual,No,Batsman,Right-Handed,Not Applicable,Yes,1vh9B9knAJx7K4Xj6YEW8xkVNXHEmEBjM
-P027,28,Karthik Selvam,38,Experienced,Phase 2,Experienced,Yes,All-Rounder,Right-Handed,Right-arm Medium Fast,No,
-P028,29,Ranjith Madhana Kaandhan (RMK),34,Experienced,Phase 3,Intermediate,Yes,All-Rounder,Right-Handed,Right-arm Medium Fast,Yes,1PCs133CCMy7SjqmcxFST2HAyh3r_CIBp
-P029,30,Vinoth Kumar Kannan,44,Seasoned,Phase 1,Experienced,Yes,All-Rounder,Right-Handed,Right-arm Fast,Yes,16Tv3ne_hCGcpsRw4MKdvto7V7H2Uatqk
-P030,31,Aravindh,32,Experienced,Phase 2,Experienced,Yes,Batsman,Right-Handed,Not Applicable,No,
-P031,32,Rajan S,36,Experienced,Phase 2,Experienced,Yes,All-Rounder,Right-Handed,Right-arm Medium Fast,Yes,1GyAPF-AUuEddhrR_Ua76033wlVbfvODD
-P032,33,Rasu Pandi,32,Experienced,Phase 2,Experienced,Yes,Bowler,Right-Handed,Right-arm Fast,No,
-P033,34,Nitesh Kumar Jain,37,Experienced,Phase 1,Intermediate,Yes,Batsman,Right-Handed,Right-arm Medium Fast,No,
-P034,35,Shishir Kumar,39,Experienced,Phase 1,Experienced,Yes,Batsman,Right-Handed,Right-arm Medium Fast,Yes,16Q-yGCYeZQjKzAcI0whr2_kvcTl1yQmG
-P035,36,Suresh Nandan,42,Seasoned,Phase 1,Experienced,Yes,All-Rounder,Right-Handed,Right-arm Medium Fast,Yes,1Qo3wfUDCnugmyvDuw7VCg_AxIEWRZ-ea
-P036,37,Sathish Kumar,40,Seasoned,Phase 2,Experienced,Yes,All-Rounder,Right-Handed,Right-arm Fast,No,
-P037,38,DURAISAMY B,30,Prime,Phase 2,Intermediate,Yes,All-Rounder,Right-Handed,Right-arm Medium Fast,No,
-P038,39,Swaroop,31,Experienced,Phase 1,Casual,No,All-Rounder,Right-Handed,Right-arm Medium Fast,Yes,1ITROFJ1JoIEw22cwuKUXQ_Tke1qFkbkU
-P039,40,Hanan Abel,23,Young Talent,Phase 1,Intermediate,Yes,Batsman,Left-Handed,Left-arm Spin,Yes,1OSiyR3A0nEAoQ9L_1aX2oJsnioufRO03
-P040,41,Vinod Kumar D R,38,Experienced,Phase 2,Intermediate,Yes,Batsman,Right-Handed,Right-arm Medium Fast,Yes,1tSr7GdPi7yKSc7Dag3Va2t6b_ZROP3Un
-P041,42,Harshan,34,Experienced,Phase 2,Experienced,Yes,All-Rounder,Right-Handed,Right-arm Spin,No,
-P042,43,Anish Kumar Jain,30,Prime,Phase 1,Intermediate,Yes,All-Rounder,Right-Handed,Right-arm Medium Fast,No,
-P043,44,Harsha,48,Veteran,Phase 2,Casual,No,Bowler,Right-Handed,Right-arm Medium Fast,No,
-P044,45,BISHNU PRASAD PATRO,46,Veteran,Phase 1,Experienced,Yes,Batsman,Right-Handed,Right-arm Medium Fast,Yes,1OHeCQ0zisME17dhYMyVPRp-uMGDj0Ah0
-P045,46,Anand I,38,Experienced,Phase 1,Casual,No,All-Rounder,Right-Handed,Right-arm Medium Fast,No,
-P046,47,Sai Teja,32,Experienced,Phase 2,Experienced,Yes,Bowler,Right-Handed,Left-arm Medium Fast,Yes,1eDZas-ri9aNq4o0aFJbeXh0m1QoksToW
-P047,48,Selvam balagurusamy,43,Seasoned,Phase 2,Experienced,Yes,All-Rounder,Right-Handed,Not Applicable,Yes,1m9HA1FBu4FXA0mRI6EYPd5pTNixJTpN3
-P048,49,Aru D.J,38,Experienced,Phase 2,Intermediate,Yes,All-Rounder,Right-Handed,Right-arm Medium Fast,No,
+﻿Player ID,Source Row,Name,Age admin only,Phase,Experience,Previous Tournament,Role,Batting,Bowling
+P001,2,Kowshik Nagarajan,42,Phase 1,Intermediate,Yes,Batsman,Right-Handed,Right-arm Spin
+P002,3,SAMI,34,Phase 2,Experienced,No,All-Rounder,Right-Handed,Right-arm Spin
+P003,4,Yash Nichani M,27,Phase 1,Beginner,No,All-Rounder,Right-Handed,Right-arm Medium Fast
+P004,5,Kumar valliappan S,29,Phase 2,Casual,No,Bowler,Right-Handed,Right-arm Medium Fast
+P005,6,K NARAYANAN,66,Phase 1,Intermediate,No,All-Rounder,Right-Handed,Right-arm Spin
+P006,7,Dakshan Shriram,30,Phase 1,Intermediate,Yes,Batsman,Right-Handed,Right-arm Spin
+P007,8,Vijaya Prabhu,40,Phase 1,Casual,No,Batsman,Right-Handed,Not Applicable
+P008,9,Deepak Sekar,39,Phase 2,Experienced,Yes,Batsman,Right-Handed,Right-arm Medium Fast
+P009,10,Shravan kumar,33,Phase 1,Intermediate,Yes,All-Rounder,Left-Handed,Right-arm Medium Fast
+P010,11,Essaki Muthu Mahesh,31,Phase 2,Casual,No,Batsman,Left-Handed,Right-arm Medium Fast
+P011,12,Kannan Mohanasundaram,36,Phase 1,Experienced,Yes,All-Rounder,Right-Handed,Right-arm Medium Fast
+P012,13,Rafi,34,Phase 1,Intermediate,Yes,All-Rounder,Right-Handed,Right-arm Medium Fast
+P013,14,Hemansu,43,Phase 1,Experienced,Yes,All-Rounder,Right-Handed,Right-arm Fast
+P014,15,Praveen Kumar,37,Phase 1,Casual,No,Batsman,Right-Handed,Right-arm Spin
+P015,16,Kaleeswaran,29,Phase 2,Intermediate,Yes,All-Rounder,Right-Handed,Right-arm Medium Fast
+P016,17,Adharsh vinodh,28,Phase 2,Intermediate,Yes,All-Rounder,Right-Handed,Right-arm Medium Fast
+P017,18,Kirubakaran Venkatesan,27,Phase 1,Intermediate,Yes,All-Rounder,Right-Handed,Right-arm Medium Fast
+P018,19,Irfan,32,Phase 2,Experienced,Yes,All-Rounder,Right-Handed,Right-arm Fast
+P019,20,Prathish kumar,29,Phase 2,Casual,Yes,Batsman,Right-Handed,Not Applicable
+P020,21,Navanee,30,Phase 4,Intermediate,Yes,All-Rounder,Right-Handed,Right-arm Medium Fast
+P021,22,Prashanth,37,Phase 2,Casual,No,All-Rounder,Right-Handed,Right-arm Medium Fast
+P022,23,Abhishek Hore,46,Phase 2,Intermediate,Yes,Batsman,Right-Handed,Right-arm Spin
+P023,24,Prabhu M,40,Phase 2,Casual,Yes,All-Rounder,Right-Handed,Right-arm Medium Fast
+P024,25,Arshad S,35,Phase 2,Experienced,Yes,All-Rounder,Right-Handed,Right-arm Medium Fast
+P025,26,Arul Prakash,54,Phase 1,Casual,Yes,All-Rounder,Right-Handed,Right-arm Medium Fast
+P026,27,Joshua Ponsam P S,29,Phase 1,Casual,No,Batsman,Right-Handed,Not Applicable
+P027,28,Karthik Selvam,38,Phase 2,Experienced,Yes,All-Rounder,Right-Handed,Right-arm Medium Fast
+P028,29,Ranjith Madhana Kaandhan (RMK),34,Phase 3,Intermediate,Yes,All-Rounder,Right-Handed,Right-arm Medium Fast
+P029,30,Vinoth Kumar Kannan,44,Phase 1,Experienced,Yes,All-Rounder,Right-Handed,Right-arm Fast
+P030,31,Aravindh,32,Phase 2,Experienced,Yes,Batsman,Right-Handed,Not Applicable
+P031,32,Rajan S,36,Phase 2,Experienced,Yes,All-Rounder,Right-Handed,Right-arm Medium Fast
+P032,33,Rasu Pandi,32,Phase 2,Experienced,Yes,Bowler,Right-Handed,Right-arm Fast
+P033,34,Nitesh Kumar Jain,37,Phase 1,Intermediate,Yes,Batsman,Right-Handed,Right-arm Medium Fast
+P034,35,Shishir Kumar,39,Phase 1,Experienced,Yes,Batsman,Right-Handed,Right-arm Medium Fast
+P035,36,Suresh Nandan,42,Phase 1,Experienced,Yes,All-Rounder,Right-Handed,Right-arm Medium Fast
+P036,37,Sathish Kumar,40,Phase 2,Experienced,Yes,All-Rounder,Right-Handed,Right-arm Fast
+P037,38,DURAISAMY B,30,Phase 2,Intermediate,Yes,All-Rounder,Right-Handed,Right-arm Medium Fast
+P038,39,Swaroop,31,Phase 1,Casual,No,All-Rounder,Right-Handed,Right-arm Medium Fast
+P039,40,Hanan Abel,23,Phase 1,Intermediate,Yes,Batsman,Left-Handed,Left-arm Spin
+P040,41,Vinod Kumar D R,38,Phase 2,Intermediate,Yes,Batsman,Right-Handed,Right-arm Medium Fast
+P041,42,Harshan,34,Phase 2,Experienced,Yes,All-Rounder,Right-Handed,Right-arm Spin
+P042,43,Anish Kumar Jain,30,Phase 1,Intermediate,Yes,All-Rounder,Right-Handed,Right-arm Medium Fast
+P043,44,Harsha,48,Phase 2,Casual,No,Bowler,Right-Handed,Right-arm Medium Fast
+P044,45,BISHNU PRASAD PATRO,46,Phase 1,Experienced,Yes,Batsman,Right-Handed,Right-arm Medium Fast
+P045,46,Anand I,38,Phase 1,Casual,No,All-Rounder,Right-Handed,Right-arm Medium Fast
+P046,47,Sai Teja,32,Phase 2,Experienced,Yes,Bowler,Right-Handed,Left-arm Medium Fast
+P047,48,Selvam balagurusamy,43,Phase 2,Experienced,Yes,All-Rounder,Right-Handed,Not Applicable
+P048,49,Aru D.J,38,Phase 2,Intermediate,Yes,All-Rounder,Right-Handed,Right-arm Medium Fast

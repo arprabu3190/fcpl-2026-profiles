@@ -11,7 +11,7 @@ window.FCPL_PLAYERS=[
     "batting": "Right-Handed",
     "bowling": "Right-arm Spin",
     "status": "Available",
-    "team": "",
+    "teamId": "",
     "soldPrice": ""
   },
   {
@@ -26,7 +26,7 @@ window.FCPL_PLAYERS=[
     "batting": "Right-Handed",
     "bowling": "Right-arm Spin",
     "status": "Available",
-    "team": "",
+    "teamId": "",
     "soldPrice": ""
   },
   {
@@ -41,7 +41,7 @@ window.FCPL_PLAYERS=[
     "batting": "Right-Handed",
     "bowling": "Right-arm Medium Fast",
     "status": "Available",
-    "team": "",
+    "teamId": "",
     "soldPrice": ""
   },
   {
@@ -56,7 +56,7 @@ window.FCPL_PLAYERS=[
     "batting": "Right-Handed",
     "bowling": "Right-arm Medium Fast",
     "status": "Available",
-    "team": "",
+    "teamId": "",
     "soldPrice": ""
   },
   {
@@ -71,7 +71,7 @@ window.FCPL_PLAYERS=[
     "batting": "Right-Handed",
     "bowling": "Right-arm Spin",
     "status": "Available",
-    "team": "",
+    "teamId": "",
     "soldPrice": ""
   },
   {
@@ -86,7 +86,7 @@ window.FCPL_PLAYERS=[
     "batting": "Right-Handed",
     "bowling": "Right-arm Spin",
     "status": "Available",
-    "team": "",
+    "teamId": "",
     "soldPrice": ""
   },
   {
@@ -101,7 +101,7 @@ window.FCPL_PLAYERS=[
     "batting": "Right-Handed",
     "bowling": "Not Applicable",
     "status": "Available",
-    "team": "",
+    "teamId": "",
     "soldPrice": ""
   },
   {
@@ -116,7 +116,7 @@ window.FCPL_PLAYERS=[
     "batting": "Right-Handed",
     "bowling": "Right-arm Medium Fast",
     "status": "Available",
-    "team": "",
+    "teamId": "",
     "soldPrice": ""
   },
   {
@@ -131,7 +131,7 @@ window.FCPL_PLAYERS=[
     "batting": "Left-Handed",
     "bowling": "Right-arm Medium Fast",
     "status": "Available",
-    "team": "",
+    "teamId": "",
     "soldPrice": ""
   },
   {
@@ -146,7 +146,7 @@ window.FCPL_PLAYERS=[
     "batting": "Left-Handed",
     "bowling": "Right-arm Medium Fast",
     "status": "Available",
-    "team": "",
+    "teamId": "",
     "soldPrice": ""
   },
   {
@@ -161,7 +161,7 @@ window.FCPL_PLAYERS=[
     "batting": "Right-Handed",
     "bowling": "Right-arm Medium Fast",
     "status": "Available",
-    "team": "",
+    "teamId": "",
     "soldPrice": ""
   },
   {
@@ -176,7 +176,7 @@ window.FCPL_PLAYERS=[
     "batting": "Right-Handed",
     "bowling": "Right-arm Medium Fast",
     "status": "Available",
-    "team": "",
+    "teamId": "",
     "soldPrice": ""
   },
   {
@@ -191,7 +191,7 @@ window.FCPL_PLAYERS=[
     "batting": "Right-Handed",
     "bowling": "Right-arm Fast",
     "status": "Available",
-    "team": "",
+    "teamId": "",
     "soldPrice": ""
   },
   {
@@ -206,7 +206,7 @@ window.FCPL_PLAYERS=[
     "batting": "Right-Handed",
     "bowling": "Right-arm Spin",
     "status": "Available",
-    "team": "",
+    "teamId": "",
     "soldPrice": ""
   },
   {
@@ -221,7 +221,7 @@ window.FCPL_PLAYERS=[
     "batting": "Right-Handed",
     "bowling": "Right-arm Medium Fast",
     "status": "Available",
-    "team": "",
+    "teamId": "",
     "soldPrice": ""
   },
   {
@@ -236,7 +236,7 @@ window.FCPL_PLAYERS=[
     "batting": "Right-Handed",
     "bowling": "Right-arm Medium Fast",
     "status": "Available",
-    "team": "",
+    "teamId": "",
     "soldPrice": ""
   },
   {
@@ -251,7 +251,7 @@ window.FCPL_PLAYERS=[
     "batting": "Right-Handed",
     "bowling": "Right-arm Medium Fast",
     "status": "Available",
-    "team": "",
+    "teamId": "",
     "soldPrice": ""
   },
   {
@@ -266,7 +266,7 @@ window.FCPL_PLAYERS=[
     "batting": "Right-Handed",
     "bowling": "Right-arm Fast",
     "status": "Available",
-    "team": "",
+    "teamId": "",
     "soldPrice": ""
   },
   {
@@ -281,7 +281,7 @@ window.FCPL_PLAYERS=[
     "batting": "Right-Handed",
     "bowling": "Not Applicable",
     "status": "Available",
-    "team": "",
+    "teamId": "",
     "soldPrice": ""
   },
   {
@@ -296,7 +296,7 @@ window.FCPL_PLAYERS=[
     "batting": "Right-Handed",
     "bowling": "Right-arm Medium Fast",
     "status": "Available",
-    "team": "",
+    "teamId": "",
     "soldPrice": ""
   },
   {
@@ -311,7 +311,7 @@ window.FCPL_PLAYERS=[
     "batting": "Right-Handed",
     "bowling": "Right-arm Medium Fast",
     "status": "Available",
-    "team": "",
+    "teamId": "",
     "soldPrice": ""
   },
   {
@@ -326,7 +326,7 @@ window.FCPL_PLAYERS=[
     "batting": "Right-Handed",
     "bowling": "Right-arm Spin",
     "status": "Available",
-    "team": "",
+    "teamId": "",
     "soldPrice": ""
   },
   {
@@ -341,7 +341,7 @@ window.FCPL_PLAYERS=[
     "batting": "Right-Handed",
     "bowling": "Right-arm Medium Fast",
     "status": "Available",
-    "team": "",
+    "teamId": "",
     "soldPrice": ""
   },
   {
@@ -356,7 +356,7 @@ window.FCPL_PLAYERS=[
     "batting": "Right-Handed",
     "bowling": "Right-arm Medium Fast",
     "status": "Available",
-    "team": "",
+    "teamId": "",
     "soldPrice": ""
   },
   {
@@ -371,7 +371,7 @@ window.FCPL_PLAYERS=[
     "batting": "Right-Handed",
     "bowling": "Right-arm Medium Fast",
     "status": "Available",
-    "team": "",
+    "teamId": "",
     "soldPrice": ""
   },
   {
@@ -386,7 +386,7 @@ window.FCPL_PLAYERS=[
     "batting": "Right-Handed",
     "bowling": "Not Applicable",
     "status": "Available",
-    "team": "",
+    "teamId": "",
     "soldPrice": ""
   },
   {
@@ -401,7 +401,7 @@ window.FCPL_PLAYERS=[
     "batting": "Right-Handed",
     "bowling": "Right-arm Medium Fast",
     "status": "Available",
-    "team": "",
+    "teamId": "",
     "soldPrice": ""
   },
   {
@@ -416,7 +416,7 @@ window.FCPL_PLAYERS=[
     "batting": "Right-Handed",
     "bowling": "Right-arm Medium Fast",
     "status": "Available",
-    "team": "",
+    "teamId": "",
     "soldPrice": ""
   },
   {
@@ -431,7 +431,7 @@ window.FCPL_PLAYERS=[
     "batting": "Right-Handed",
     "bowling": "Right-arm Fast",
     "status": "Available",
-    "team": "",
+    "teamId": "",
     "soldPrice": ""
   },
   {
@@ -446,7 +446,7 @@ window.FCPL_PLAYERS=[
     "batting": "Right-Handed",
     "bowling": "Not Applicable",
     "status": "Available",
-    "team": "",
+    "teamId": "",
     "soldPrice": ""
   },
   {
@@ -461,7 +461,7 @@ window.FCPL_PLAYERS=[
     "batting": "Right-Handed",
     "bowling": "Right-arm Medium Fast",
     "status": "Available",
-    "team": "",
+    "teamId": "",
     "soldPrice": ""
   },
   {
@@ -476,7 +476,7 @@ window.FCPL_PLAYERS=[
     "batting": "Right-Handed",
     "bowling": "Right-arm Fast",
     "status": "Available",
-    "team": "",
+    "teamId": "",
     "soldPrice": ""
   },
   {
@@ -491,7 +491,7 @@ window.FCPL_PLAYERS=[
     "batting": "Right-Handed",
     "bowling": "Right-arm Medium Fast",
     "status": "Available",
-    "team": "",
+    "teamId": "",
     "soldPrice": ""
   },
   {
@@ -506,7 +506,7 @@ window.FCPL_PLAYERS=[
     "batting": "Right-Handed",
     "bowling": "Right-arm Medium Fast",
     "status": "Available",
-    "team": "",
+    "teamId": "",
     "soldPrice": ""
   },
   {
@@ -521,7 +521,7 @@ window.FCPL_PLAYERS=[
     "batting": "Right-Handed",
     "bowling": "Right-arm Medium Fast",
     "status": "Available",
-    "team": "",
+    "teamId": "",
     "soldPrice": ""
   },
   {
@@ -536,7 +536,7 @@ window.FCPL_PLAYERS=[
     "batting": "Right-Handed",
     "bowling": "Right-arm Fast",
     "status": "Available",
-    "team": "",
+    "teamId": "",
     "soldPrice": ""
   },
   {
@@ -551,7 +551,7 @@ window.FCPL_PLAYERS=[
     "batting": "Right-Handed",
     "bowling": "Right-arm Medium Fast",
     "status": "Available",
-    "team": "",
+    "teamId": "",
     "soldPrice": ""
   },
   {
@@ -566,7 +566,7 @@ window.FCPL_PLAYERS=[
     "batting": "Right-Handed",
     "bowling": "Right-arm Medium Fast",
     "status": "Available",
-    "team": "",
+    "teamId": "",
     "soldPrice": ""
   },
   {
@@ -581,7 +581,7 @@ window.FCPL_PLAYERS=[
     "batting": "Left-Handed",
     "bowling": "Left-arm Spin",
     "status": "Available",
-    "team": "",
+    "teamId": "",
     "soldPrice": ""
   },
   {
@@ -596,7 +596,7 @@ window.FCPL_PLAYERS=[
     "batting": "Right-Handed",
     "bowling": "Right-arm Medium Fast",
     "status": "Available",
-    "team": "",
+    "teamId": "",
     "soldPrice": ""
   },
   {
@@ -611,7 +611,7 @@ window.FCPL_PLAYERS=[
     "batting": "Right-Handed",
     "bowling": "Right-arm Spin",
     "status": "Available",
-    "team": "",
+    "teamId": "",
     "soldPrice": ""
   },
   {
@@ -626,7 +626,7 @@ window.FCPL_PLAYERS=[
     "batting": "Right-Handed",
     "bowling": "Right-arm Medium Fast",
     "status": "Available",
-    "team": "",
+    "teamId": "",
     "soldPrice": ""
   },
   {
@@ -641,7 +641,7 @@ window.FCPL_PLAYERS=[
     "batting": "Right-Handed",
     "bowling": "Right-arm Medium Fast",
     "status": "Available",
-    "team": "",
+    "teamId": "",
     "soldPrice": ""
   },
   {
@@ -656,7 +656,7 @@ window.FCPL_PLAYERS=[
     "batting": "Right-Handed",
     "bowling": "Right-arm Medium Fast",
     "status": "Available",
-    "team": "",
+    "teamId": "",
     "soldPrice": ""
   },
   {
@@ -671,7 +671,7 @@ window.FCPL_PLAYERS=[
     "batting": "Right-Handed",
     "bowling": "Right-arm Medium Fast",
     "status": "Available",
-    "team": "",
+    "teamId": "",
     "soldPrice": ""
   },
   {
@@ -686,7 +686,7 @@ window.FCPL_PLAYERS=[
     "batting": "Right-Handed",
     "bowling": "Left-arm Medium Fast",
     "status": "Available",
-    "team": "",
+    "teamId": "",
     "soldPrice": ""
   },
   {
@@ -701,7 +701,7 @@ window.FCPL_PLAYERS=[
     "batting": "Right-Handed",
     "bowling": "Not Applicable",
     "status": "Available",
-    "team": "",
+    "teamId": "",
     "soldPrice": ""
   },
   {
@@ -716,16 +716,15 @@ window.FCPL_PLAYERS=[
     "batting": "Right-Handed",
     "bowling": "Right-arm Medium Fast",
     "status": "Available",
-    "team": "",
+    "teamId": "",
     "soldPrice": ""
   }
 ];
 
 window.FCPL_TEAMS=[
-  "Team 1",
-  "Team 2",
-  "Team 3",
-  "Team 4",
-  "Team 5",
-  "Team 6"
+  {
+    "id": "FSKXI",
+    "name": "FirstCity Super Kings XI",
+    "logo": "team-logos/firstcity-super-kings-xi.png"
+  }
 ];
