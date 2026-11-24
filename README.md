@@ -6,5 +6,8 @@ New Teams tab includes six team cards, captain name/photo or placeholder, player
 
 Required Supabase team columns: captain_name, captain_photo_url, starting_purse, display_order. The package works when starting_purse is NULL.
 
-## Large captain-photo update
-Captain portraits are now significantly larger on both the team overview cards and individual team pages. The responsive layout scales the portraits for tablets and phones without affecting squad cards or player profiles.
+## Captain-first team detail design
+The individual team page now follows the approved captain-first layout: an oversized captain portrait is the primary visual, with a crown-style TEAM CAPTAIN badge and captain name below. Team identity and auction metrics appear in a secondary panel. Mobile layouts stack cleanly.
+
+## Home page
+The website now opens on a dedicated Home page with a league hero, live Supabase player/team/captain counts, six team cards, and direct links to Teams, Players and Player Showcase. Existing captain-first team details, squads, player profiles, admin login, team logos and Realtime remain included.
