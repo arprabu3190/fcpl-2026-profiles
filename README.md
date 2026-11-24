@@ -1,5 +1,7 @@
-FCPL 2026 Centralized Placeholder Package
+FCPL 2026 Teams and Captains package
 
-Replace these files in GitHub: index.html, styles.css, app.js, config.js, fcpl-logo.png, and team-logos folder. Delete old data.js if it exists.
+Replace in GitHub: index.html, styles.css, app.js, config.js, fcpl-logo.png, and team-logos folder. Delete old data.js if present.
 
-Players with blank or broken photo_url now show a branded FCPL silhouette, initials, and PHOTO NOT AVAILABLE. SOLD/UNSOLD stamps still overlay the placeholder. No Supabase database change is required.
+New Teams tab includes six team cards, captain name/photo or placeholder, players bought, total spent, individual squad pages, optional remaining purse, mobile layout, and Realtime refresh. Squad membership is automatic from players where auction_status=Sold and team_id matches.
+
+Required Supabase team columns: captain_name, captain_photo_url, starting_purse, display_order. The package works when starting_purse is NULL.
