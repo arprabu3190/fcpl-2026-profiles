@@ -346,21 +346,6 @@ window.FCPL_PLAYERS=[
   },
   {
     "id": "P024",
-    "name": "Vinod Kumar D R",
-    "photo": "",
-    "age": 38,
-    "phase": "Phase 2",
-    "experience": "Intermediate",
-    "tournament": "Yes",
-    "role": "Batsman",
-    "batting": "Right-Handed",
-    "bowling": "Right-arm Medium Fast",
-    "status": "Available",
-    "team": "",
-    "soldPrice": ""
-  },
-  {
-    "id": "P025",
     "name": "Arshad S",
     "photo": "https://drive.google.com/thumbnail?id=1bjBbN0ozQUxX7Bwc_o7IrJtxWcXCYkIr&sz=w1200",
     "age": 35,
@@ -375,7 +360,7 @@ window.FCPL_PLAYERS=[
     "soldPrice": ""
   },
   {
-    "id": "P026",
+    "id": "P025",
     "name": "Arul Prakash",
     "photo": "",
     "age": 54,
@@ -390,7 +375,7 @@ window.FCPL_PLAYERS=[
     "soldPrice": ""
   },
   {
-    "id": "P027",
+    "id": "P026",
     "name": "Joshua Ponsam P S",
     "photo": "https://drive.google.com/thumbnail?id=1vh9B9knAJx7K4Xj6YEW8xkVNXHEmEBjM&sz=w1200",
     "age": 29,
@@ -405,7 +390,7 @@ window.FCPL_PLAYERS=[
     "soldPrice": ""
   },
   {
-    "id": "P028",
+    "id": "P027",
     "name": "Karthik Selvam",
     "photo": "",
     "age": 38,
@@ -420,7 +405,7 @@ window.FCPL_PLAYERS=[
     "soldPrice": ""
   },
   {
-    "id": "P029",
+    "id": "P028",
     "name": "Ranjith Madhana Kaandhan (RMK)",
     "photo": "https://drive.google.com/thumbnail?id=1PCs133CCMy7SjqmcxFST2HAyh3r_CIBp&sz=w1200",
     "age": 34,
@@ -435,7 +420,7 @@ window.FCPL_PLAYERS=[
     "soldPrice": ""
   },
   {
-    "id": "P030",
+    "id": "P029",
     "name": "Vinoth Kumar Kannan",
     "photo": "https://drive.google.com/thumbnail?id=16Tv3ne_hCGcpsRw4MKdvto7V7H2Uatqk&sz=w1200",
     "age": 44,
@@ -450,7 +435,7 @@ window.FCPL_PLAYERS=[
     "soldPrice": ""
   },
   {
-    "id": "P031",
+    "id": "P030",
     "name": "Aravindh",
     "photo": "",
     "age": 32,
@@ -465,7 +450,7 @@ window.FCPL_PLAYERS=[
     "soldPrice": ""
   },
   {
-    "id": "P032",
+    "id": "P031",
     "name": "Rajan S",
     "photo": "https://drive.google.com/thumbnail?id=1GyAPF-AUuEddhrR_Ua76033wlVbfvODD&sz=w1200",
     "age": 36,
@@ -480,7 +465,7 @@ window.FCPL_PLAYERS=[
     "soldPrice": ""
   },
   {
-    "id": "P033",
+    "id": "P032",
     "name": "Rasu Pandi",
     "photo": "",
     "age": 32,
@@ -495,7 +480,7 @@ window.FCPL_PLAYERS=[
     "soldPrice": ""
   },
   {
-    "id": "P034",
+    "id": "P033",
     "name": "Nitesh Kumar Jain",
     "photo": "",
     "age": 37,
@@ -510,7 +495,7 @@ window.FCPL_PLAYERS=[
     "soldPrice": ""
   },
   {
-    "id": "P035",
+    "id": "P034",
     "name": "Shishir Kumar",
     "photo": "https://drive.google.com/thumbnail?id=16Q-yGCYeZQjKzAcI0whr2_kvcTl1yQmG&sz=w1200",
     "age": 39,
@@ -525,7 +510,7 @@ window.FCPL_PLAYERS=[
     "soldPrice": ""
   },
   {
-    "id": "P036",
+    "id": "P035",
     "name": "Suresh Nandan",
     "photo": "https://drive.google.com/thumbnail?id=1Qo3wfUDCnugmyvDuw7VCg_AxIEWRZ-ea&sz=w1200",
     "age": 42,
@@ -540,7 +525,7 @@ window.FCPL_PLAYERS=[
     "soldPrice": ""
   },
   {
-    "id": "P037",
+    "id": "P036",
     "name": "Sathish Kumar",
     "photo": "",
     "age": 40,
@@ -555,7 +540,7 @@ window.FCPL_PLAYERS=[
     "soldPrice": ""
   },
   {
-    "id": "P038",
+    "id": "P037",
     "name": "DURAISAMY B",
     "photo": "",
     "age": 30,
@@ -570,7 +555,7 @@ window.FCPL_PLAYERS=[
     "soldPrice": ""
   },
   {
-    "id": "P039",
+    "id": "P038",
     "name": "Swaroop",
     "photo": "https://drive.google.com/thumbnail?id=1ITROFJ1JoIEw22cwuKUXQ_Tke1qFkbkU&sz=w1200",
     "age": 31,
@@ -585,7 +570,7 @@ window.FCPL_PLAYERS=[
     "soldPrice": ""
   },
   {
-    "id": "P040",
+    "id": "P039",
     "name": "Hanan Abel",
     "photo": "https://drive.google.com/thumbnail?id=1OSiyR3A0nEAoQ9L_1aX2oJsnioufRO03&sz=w1200",
     "age": 23,
@@ -595,6 +580,21 @@ window.FCPL_PLAYERS=[
     "role": "Batsman",
     "batting": "Left-Handed",
     "bowling": "Left-arm Spin",
+    "status": "Available",
+    "team": "",
+    "soldPrice": ""
+  },
+  {
+    "id": "P040",
+    "name": "Vinod Kumar D R",
+    "photo": "https://drive.google.com/thumbnail?id=1tSr7GdPi7yKSc7Dag3Va2t6b_ZROP3Un&sz=w1200",
+    "age": 38,
+    "phase": "Phase 2",
+    "experience": "Intermediate",
+    "tournament": "Yes",
+    "role": "Batsman",
+    "batting": "Right-Handed",
+    "bowling": "Right-arm Medium Fast",
     "status": "Available",
     "team": "",
     "soldPrice": ""
@@ -667,6 +667,51 @@ window.FCPL_PLAYERS=[
     "phase": "Phase 1",
     "experience": "Casual",
     "tournament": "No",
+    "role": "All-Rounder",
+    "batting": "Right-Handed",
+    "bowling": "Right-arm Medium Fast",
+    "status": "Available",
+    "team": "",
+    "soldPrice": ""
+  },
+  {
+    "id": "P046",
+    "name": "Sai Teja",
+    "photo": "https://drive.google.com/thumbnail?id=1eDZas-ri9aNq4o0aFJbeXh0m1QoksToW&sz=w1200",
+    "age": 32,
+    "phase": "Phase 2",
+    "experience": "Experienced",
+    "tournament": "Yes",
+    "role": "Bowler",
+    "batting": "Right-Handed",
+    "bowling": "Left-arm Medium Fast",
+    "status": "Available",
+    "team": "",
+    "soldPrice": ""
+  },
+  {
+    "id": "P047",
+    "name": "Selvam balagurusamy",
+    "photo": "https://drive.google.com/thumbnail?id=1m9HA1FBu4FXA0mRI6EYPd5pTNixJTpN3&sz=w1200",
+    "age": 43,
+    "phase": "Phase 2",
+    "experience": "Experienced",
+    "tournament": "Yes",
+    "role": "All-Rounder",
+    "batting": "Right-Handed",
+    "bowling": "Not Applicable",
+    "status": "Available",
+    "team": "",
+    "soldPrice": ""
+  },
+  {
+    "id": "P048",
+    "name": "Aru D.J",
+    "photo": "",
+    "age": 38,
+    "phase": "Phase 2",
+    "experience": "Intermediate",
+    "tournament": "Yes",
     "role": "All-Rounder",
     "batting": "Right-Handed",
     "bowling": "Right-arm Medium Fast",
