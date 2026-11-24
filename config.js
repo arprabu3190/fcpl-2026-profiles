@@ -1,4 +1,1 @@
-window.FCPL_CONFIG = {
-  supabaseUrl: "https://okcamhruvrqlaodfaipe.supabase.co",
-  supabasePublishableKey: "sb_publishable_GBTfmjDXBdizcXQL6bTwpg_LyzsvDQO"
-};
+window.FCPL_CONFIG={supabaseUrl:"https://okcamhruvrqlaodfaipe.supabase.co",supabasePublishableKey:"sb_publishable_GBTfmjDXBdizcXQL6bTwpg_LyzsvDQO"};
