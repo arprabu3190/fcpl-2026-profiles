@@ -1,35 +1,30 @@
-# FCPL 2026 Final Player Showcase
+# FCPL 2026 Centralized Supabase Website
 
-## Public files to upload to GitHub
-Upload/replace these files and the complete folder:
+This version loads players and teams from Supabase, saves auction updates centrally, and synchronizes all open devices through Realtime.
+
+## Upload to GitHub
+Upload/replace:
 - index.html
 - styles.css
 - app.js
-- data.js
+- config.js
 - fcpl-logo.png
-- team-logos/
+- team-logos folder
 
-Do not upload PLAYER_DATA_VALIDATION.csv publicly. It is only for organizer verification.
+Delete old data.js from GitHub because centralized data now comes from Supabase.
 
-## Team/logo mapping included
-- Firstcity Super Kings -> team-logos/firstcity-super-kings.jpeg
-- Firstcity Strikers -> team-logos/firstcity-strikers.jpeg
-- FC Titans -> team-logos/fc-titans.jpeg
-- FC XI -> team-logos/fc-xi.jpeg
-- FC Dragons -> team-logos/fc-dragons.jpeg
-- FC Gladiators -> team-logos/fc-gladiators.jpeg
+## Public behavior
+Visitors can view player profiles without signing in. The website updates automatically when an administrator saves a player.
 
-## Dynamic behavior
-- Available: no stamp or logo; shows AVAILABLE FOR AUCTION.
-- Sold: SOLD stamp plus selected team name/logo and optional sold price.
-- Unsold: UNSOLD stamp and no team logo.
-- Withdrawn: WITHDRAWN stamp and no team logo.
+## Admin behavior
+Open Admin, sign in with the Supabase Authentication user, select player/status/team/price, and save. Only authenticated users can update due to RLS.
 
-## Publish
-After uploading, commit the changes, wait for GitHub Pages deployment, then refresh with Ctrl+F5 or test in InPrivate.
+## Security
+config.js contains only the Project URL and browser-safe publishable key. Never add an sb_secret key, service-role key, database password, or JWT secret.
 
-## Free-version limitation
-Auction updates are saved only in the current browser. Use Export results regularly. Use Import results to restore them on another browser or laptop.
-
-## Mobile compatibility
-This build includes responsive layouts for 320px phones, larger phones, tablets, and mobile landscape. On mobile, the showcase intentionally scrolls vertically so text and controls remain readable. The desktop/projector showcase remains one-screen optimized.
+## Testing
+1. Open the public site in a normal browser and phone.
+2. Open Admin on the auction laptop and sign in.
+3. Mark one player Sold.
+4. Confirm other devices show the SOLD stamp and team logo automatically.
+5. Set the test player back to Available.
