@@ -30,3 +30,6 @@ After uploading, commit the changes, wait for GitHub Pages deployment, then refr
 
 ## Free-version limitation
 Auction updates are saved only in the current browser. Use Export results regularly. Use Import results to restore them on another browser or laptop.
+
+## Mobile compatibility
+This build includes responsive layouts for 320px phones, larger phones, tablets, and mobile landscape. On mobile, the showcase intentionally scrolls vertically so text and controls remain readable. The desktop/projector showcase remains one-screen optimized.
