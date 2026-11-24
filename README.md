@@ -1,27 +1,32 @@
-# FCPL 2026 dynamic SOLD stamp and team-logo showcase
+# FCPL 2026 Final Player Showcase
 
-## Upload these public files/folders to GitHub
+## Public files to upload to GitHub
+Upload/replace these files and the complete folder:
 - index.html
 - styles.css
 - app.js
 - data.js
 - fcpl-logo.png
-- team-logos folder, including firstcity-super-kings-xi.png
+- team-logos/
 
-Do not upload PLAYER_DATA_VALIDATION.csv publicly.
+Do not upload PLAYER_DATA_VALIDATION.csv publicly. It is only for organizer verification.
 
-## Behavior
-- Available: no stamp, no team logo, AVAILABLE FOR AUCTION.
-- Sold: SOLD stamp over lower photo, selected team logo/name, optional sold price.
-- Unsold: UNSOLD stamp, no team logo.
-- Withdrawn: WITHDRAWN stamp, no team logo.
-- Changing Sold back to another status clears team and price.
+## Team/logo mapping included
+- Firstcity Super Kings -> team-logos/firstcity-super-kings.jpeg
+- Firstcity Strikers -> team-logos/firstcity-strikers.jpeg
+- FC Titans -> team-logos/fc-titans.jpeg
+- FC XI -> team-logos/fc-xi.jpeg
+- FC Dragons -> team-logos/fc-dragons.jpeg
+- FC Gladiators -> team-logos/fc-gladiators.jpeg
 
-## Add more teams
-1. Put each logo inside team-logos.
-2. Add another object to window.FCPL_TEAMS in data.js, for example:
-   {"id":"TEAM2","name":"Second Team","logo":"team-logos/second-team.png"}
-3. Keep every id unique.
+## Dynamic behavior
+- Available: no stamp or logo; shows AVAILABLE FOR AUCTION.
+- Sold: SOLD stamp plus selected team name/logo and optional sold price.
+- Unsold: UNSOLD stamp and no team logo.
+- Withdrawn: WITHDRAWN stamp and no team logo.
 
-## Important free-version limitation
-Admin updates are stored in the browser's localStorage. They are not automatically synchronized to other devices. Use Export results and Import results to move or back up auction results.
+## Publish
+After uploading, commit the changes, wait for GitHub Pages deployment, then refresh with Ctrl+F5 or test in InPrivate.
+
+## Free-version limitation
+Auction updates are saved only in the current browser. Use Export results regularly. Use Import results to restore them on another browser or laptop.

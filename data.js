@@ -723,8 +723,33 @@ window.FCPL_PLAYERS=[
 
 window.FCPL_TEAMS=[
   {
-    "id": "FSKXI",
-    "name": "FirstCity Super Kings XI",
-    "logo": "team-logos/firstcity-super-kings-xi.png"
+    "id": "FCSK",
+    "name": "Firstcity Super Kings",
+    "logo": "team-logos/firstcity-super-kings.jpeg"
+  },
+  {
+    "id": "FCS",
+    "name": "Firstcity Strikers",
+    "logo": "team-logos/firstcity-strikers.jpeg"
+  },
+  {
+    "id": "FCT",
+    "name": "FC Titans",
+    "logo": "team-logos/fc-titans.jpeg"
+  },
+  {
+    "id": "FCXI",
+    "name": "FC XI",
+    "logo": "team-logos/fc-xi.jpeg"
+  },
+  {
+    "id": "FCD",
+    "name": "FC Dragons",
+    "logo": "team-logos/fc-dragons.jpeg"
+  },
+  {
+    "id": "FCG",
+    "name": "FC Gladiators",
+    "logo": "team-logos/fc-gladiators.jpeg"
   }
 ];
