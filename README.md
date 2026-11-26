@@ -27,3 +27,6 @@ One Supabase database and deployment now serve two dedicated layout systems. des
 
 ## Original green theme restored
 The separate desktop and mobile layouts remain, but the light palette has been replaced with the original FCPL emerald, lime and gold visual system. Desktop/projector and mobile views still use separate CSS files and share one Supabase database.
+
+## Mobile Previous/Next navigation fix
+The mobile Player Showcase now always displays the player selector in the first row and two equal touch-friendly buttons in the second row: Previous and Next. The rules are scoped to #showcase and use explicit grid positions so older responsive CSS cannot hide or misplace the controls.

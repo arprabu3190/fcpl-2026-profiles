@@ -1,1 +1,72 @@
 @media(max-width:900px){html,body{overflow-x:hidden;overflow-y:auto;background:linear-gradient(180deg,#edf4fc,#f8fbff 35%,#f2effb)}header{min-height:66px;display:grid;grid-template-columns:minmax(0,1fr) 42px;padding:7px 11px;gap:7px}.brand img{width:49px;height:49px}.brand b{font-size:21px}.brand small,.round{display:none}.mobileMenu{display:grid;place-items:center;width:40px;height:40px;border-radius:9px;background:#e8f0fb;color:#102b56;font-size:21px}nav{grid-column:1/-1;display:none;height:auto;padding:5px;grid-template-columns:1fr 1fr;gap:5px;border-top:1px solid #d5deeb}body.mobile-menu-open nav{display:grid}nav button{min-height:42px;padding:8px;border:1px solid #d8e1ed;border-radius:8px;background:#f8fbff;font-size:12px}nav button.active{border:1px solid #1766d7;background:#e8f1ff}main{height:auto;min-height:calc(100dvh - 66px);padding:8px}.view,.view.active{height:auto}.homeHero{min-height:495px;padding:24px 18px;background-position:70% center}.homeHero h1{font-size:clamp(40px,12vw,55px)}.homeHero p{max-width:330px;font-size:17px}.actions{display:grid;grid-template-columns:1fr}.homeStats,.homeTeams{grid-template-columns:1fr 1fr}.homeTeams img{height:90px}.advancedFilters{grid-template-columns:1fr 1fr!important;padding:9px;gap:7px}.searchBox{grid-column:1/-1!important}.resetFilters{grid-column:1/-1}.filterSummary{flex-direction:column}#activeFilters{justify-content:flex-start}.listHead{display:none}.listBody{border:0;border-radius:0;display:grid;gap:8px}.listBody button{min-height:82px;display:grid;grid-template-columns:minmax(0,1fr) auto;gap:5px 12px;border:1px solid #d7e1ed;border-radius:11px;background:#fff}.listBody button>span:first-child{grid-row:1/4}.listBody button>span:nth-child(2),.listBody button>span:nth-child(3),.listBody button>span:nth-child(6){display:block;text-align:right;font-size:10px}.listBody button>span:nth-child(4),.listBody button>span:nth-child(5),.listBody button>span:nth-child(7){display:none}.showNav{height:auto;grid-template-columns:1fr 1fr;padding:6px}.showNav select{grid-column:1/-1;grid-row:1;height:43px}.showNav button{height:42px}.showNav span{display:none}.showcaseCard{display:flex;flex-direction:column;height:auto;min-height:0;border-radius:14px}.showcaseCard>.auctionPanel{order:1;min-height:0;padding:12px}.showcaseCard>.showPhoto{order:2;height:min(105vw,440px);min-height:290px;padding:9px}.showcaseCard>.identity{order:3;padding:18px 14px 22px;overflow:visible}.identity h1,.identity.long-name h1,.identity.very-long-name h1{font-size:clamp(32px,10.5vw,47px);line-height:1}.detailGrid{grid-template-columns:1fr 1fr!important;grid-template-rows:none!important;gap:7px}.detailGrid>div{height:auto!important;min-height:70px!important;padding:9px 10px}.auctionPanel,.auctionPanel.soldCompact{display:grid;grid-template-columns:1fr;text-align:center;gap:6px}.soldTeamFeature{grid-template-columns:70px minmax(0,1fr);padding:11px}.soldFeaturePrice{grid-column:1/-1;text-align:left}.teamsGrid{grid-template-columns:1fr}.teamsGrid article{grid-template-columns:76px minmax(0,1fr)}.teamsGrid img{width:71px;height:71px}.teamsGrid button{grid-column:1/-1;min-height:42px}#teamDetail>#back{width:100%;min-height:46px}.teamHero{grid-template-columns:1fr;padding:7px}.captain,.teamIdent{min-height:330px}.captain img,.captain>div{height:225px}.teamOverviewPanel{grid-template-columns:1fr 1fr}.roleFilters{flex-wrap:nowrap;overflow-x:auto;padding-bottom:5px}.roleFilters button{flex:0 0 auto}.squadList button{grid-template-columns:1fr auto}.squadList button span,.squadList button em{display:none}.admin{width:100%;padding:16px;border-radius:12px}.admin input,.admin select,.primary{min-height:44px}dialog{width:calc(100% - 14px);max-height:92dvh;overflow:auto}}@media(max-width:430px){.advancedFilters{grid-template-columns:1fr!important}.homeStats{grid-template-columns:1fr}.detailGrid{grid-template-columns:1fr!important}.teamOverviewPanel{grid-template-columns:1fr}}
+
+/* =========================================================
+   MOBILE SHOWCASE NAVIGATION FIX
+   Keep player selector on row 1 and show Previous / Next on row 2.
+   ========================================================= */
+@media (max-width: 900px) {
+  #showcase .showNav {
+    display: grid !important;
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+    grid-template-rows: 44px 44px !important;
+    gap: 8px !important;
+    width: 100% !important;
+    height: auto !important;
+    padding: 8px !important;
+    margin: 0 0 10px !important;
+    overflow: visible !important;
+    border: 1px solid rgba(255,255,255,.22) !important;
+    border-radius: 12px !important;
+    background: rgba(3,31,24,.92) !important;
+  }
+
+  #showcase .showNav > select#pick {
+    display: block !important;
+    grid-column: 1 / -1 !important;
+    grid-row: 1 !important;
+    width: 100% !important;
+    height: 44px !important;
+    min-height: 44px !important;
+    margin: 0 !important;
+    padding: 0 12px !important;
+    border: 1px solid #b9c9bd !important;
+    border-radius: 9px !important;
+    background: #ffffff !important;
+    color: #102018 !important;
+  }
+
+  #showcase .showNav > button#prev,
+  #showcase .showNav > button#next {
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    width: 100% !important;
+    height: 44px !important;
+    min-height: 44px !important;
+    margin: 0 !important;
+    padding: 0 12px !important;
+    border: 1px solid #d8ff3e !important;
+    border-radius: 9px !important;
+    background: linear-gradient(135deg,#0b5b39,#063522) !important;
+    color: #ffffff !important;
+    font-size: 14px !important;
+    font-weight: 900 !important;
+    line-height: 1 !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+  }
+
+  #showcase .showNav > button#prev {
+    grid-column: 1 !important;
+    grid-row: 2 !important;
+  }
+
+  #showcase .showNav > button#next {
+    grid-column: 2 !important;
+    grid-row: 2 !important;
+  }
+
+  #showcase .showNav > span#count {
+    display: none !important;
+  }
+}
