@@ -1,9 +1,783 @@
-*{box-sizing:border-box}:root{--lime:#d8ff3e;--gold:#e8c75e;--dark:#031f18;--green:#075b38;--cream:#f3f5ef;--ink:#122018}html,body{margin:0;width:100%;height:100%;overflow:hidden;font-family:Segoe UI,Arial,sans-serif;background:radial-gradient(circle at 70% 0,#24583f,transparent 35%),linear-gradient(145deg,#021812,#073526 65%,#031713);color:#fff}header{height:84px;display:grid;grid-template-columns:1fr auto 44px;align-items:center;gap:20px;padding:6px 3vw;background:#031a15ed;border-bottom:1px solid #ffffff24}.brand{display:flex;align-items:center;gap:12px}.brand img{width:70px;height:70px;object-fit:contain}.brand b{display:block;color:var(--gold);font-size:30px;font-style:italic}.brand small{font-size:9px;letter-spacing:2.5px}nav{display:flex;height:100%}button{border:0;font:inherit;font-weight:800;cursor:pointer}nav button{padding:0 12px;color:#fff;background:transparent;border-bottom:3px solid transparent}nav button.active{color:var(--lime);border-color:var(--lime)}.round{width:42px;height:42px;border-radius:50%;background:#ffffff12;color:#fff}.view{display:none;height:100%}.view.active{display:block}.scroll{overflow:auto}main{height:calc(100vh - 84px);padding:10px 3vw 13px}.hidden{display:none!important}.live{position:fixed;right:12px;bottom:12px;padding:8px 12px;border-radius:999px;background:#09643c;font-size:12px;font-weight:900;z-index:20}
-.homeHero{min-height:450px;display:flex;align-items:center;padding:55px;border:1px solid #9c8240;border-radius:22px;background-image:linear-gradient(90deg,#021610f7 0%,#021e15d9 42%,#021e1555 72%,transparent),url('hero-stadium.png');background-size:cover;background-position:center}.homeHero>div{max-width:760px}.homeHero small{color:var(--gold);letter-spacing:4px;font-weight:900}.homeHero h1{margin:12px 0;font:700 clamp(46px,6vw,84px)/.97 Georgia;color:#ffe9a8}.homeHero p{font-size:23px}.actions{display:flex;gap:12px;margin-top:24px}.actions button{padding:14px 18px;border-radius:8px;background:var(--lime);color:#17310f}.actions button+button{background:transparent;color:#fff;border:1px solid var(--lime)}.homeStats{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin:12px 0}.homeStats div{padding:14px;border:1px solid #476f5b;border-radius:10px;background:#041e17cc}.homeStats b{display:block;font-size:27px}.homeStats small{letter-spacing:1px}.sectionTitle{font:700 40px Georgia}.homeTeams{display:grid;grid-template-columns:repeat(6,1fr);gap:10px}.homeTeams button{padding:12px;border:1px solid #a68b43;border-radius:10px;background:#06281e;color:#fff}.homeTeams img{width:100%;height:110px;object-fit:contain}.homeTeams h3{min-height:40px}.homeTeams small{display:block;color:#aabbb0}
-.filters{display:grid;grid-template-columns:2fr repeat(3,1fr);gap:10px;margin-bottom:12px}.filters input,.filters select,.showNav select,.admin input,.admin select{width:100%;height:40px;padding:0 10px;border:1px solid #bdc9bf;border-radius:9px;font:inherit}.listHead,.listBody button{display:grid;grid-template-columns:1.35fr .7fr .8fr .9fr 1fr .65fr 1fr;gap:10px;align-items:center}.listHead{padding:11px 14px;border-radius:11px 11px 0 0;background:#041e17;font-size:9px;letter-spacing:1px}.listBody{overflow:hidden;border-radius:0 0 12px 12px}.listBody button{width:100%;min-height:65px;padding:10px 14px;border-bottom:1px solid #dfe7e1;background:#f8faf7;color:var(--ink);text-align:left}.listBody button:hover{background:#eff8e7}.listBody small,.listBody b{display:block}.status{display:inline-block;padding:5px 8px;border-radius:999px;font-size:10px;font-style:normal}.status.available{background:#edf8ac}.status.sold{background:#c9f3d4}.status.unsold,.status.withdrawn{background:#ddd}
-.showNav{height:42px;display:grid;grid-template-columns:auto minmax(240px,420px) 1fr auto;gap:10px;align-items:center;margin-bottom:8px}.showNav button{height:38px;padding:0 16px;border:1px solid #ffffff29;border-radius:9px;background:#ffffff10;color:#fff}.showNav span{text-align:center;font-size:11px;letter-spacing:2px}.showcaseCard{height:calc(100vh - 157px);min-height:540px;display:grid;grid-template-columns:32% 43% 25%;grid-template-rows:minmax(0,1fr) 54px;overflow:hidden;border:2px solid #b99540;border-radius:22px;background:#fff;box-shadow:0 20px 60px #0008}.showPhoto{position:relative;min-width:0;background:#031f18}.photoFrame{position:relative;width:100%;height:100%;overflow:hidden}.blurPhoto{position:absolute;inset:-25px;width:calc(100% + 50px);height:calc(100% + 50px);object-fit:cover;filter:blur(20px) brightness(.42);transform:scale(1.08)}.sharpPhoto{position:relative;width:100%;height:100%;object-fit:contain;filter:drop-shadow(0 10px 25px #0009)}.placeholder{width:100%;height:100%;display:flex;flex-direction:column;align-items:center;justify-content:center;background:linear-gradient(145deg,#214c38,#789783)}.placeholder b{font-size:60px}.placeholder small{margin-top:8px;color:var(--lime)}.soldStamp{position:absolute;left:6%;bottom:8%;z-index:3;transform:rotate(-10deg);padding:8px 18px;border:6px double #fff4e8;background:#b61010e8;color:#fff;font-size:42px;font-weight:1000}
-.identity{min-width:0;min-height:0;padding:clamp(18px,2.2vw,36px);background:radial-gradient(circle at 100% 0,#14855950,transparent 32%),linear-gradient(125deg,#063521,#075b38);color:#fff;display:flex;flex-direction:column;overflow:hidden}.identity>small{color:var(--lime);font-weight:900;letter-spacing:2px}.identity h1{margin:8px 0 10px;font-size:clamp(38px,4.1vw,68px);line-height:.94;letter-spacing:-2px;overflow-wrap:anywhere;max-width:100%}.pills{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:10px}.pills span{padding:8px 14px;border:1px solid var(--gold);border-radius:999px;color:#ffe9a8;font-size:12px;font-weight:900}.identity h2{margin:12px 0 8px;font-size:15px;text-transform:uppercase;letter-spacing:1.5px;flex:0 0 auto}.detailGrid{flex:1 1 auto;min-height:0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));grid-template-rows:repeat(3,minmax(58px,1fr));gap:8px}.detailGrid div{min-height:0;padding:9px 12px;border:1px solid #ffffff24;border-radius:12px;background:#ffffff0b;display:flex;flex-direction:column;justify-content:center}.detailGrid small{color:#a8c0b0;font-size:8px;font-weight:900}.detailGrid b{margin-top:4px;font-size:clamp(13px,1.15vw,17px);line-height:1.12;overflow-wrap:anywhere}.identity.long-name h1{font-size:clamp(30px,3.25vw,52px)}.identity.very-long-name h1{font-size:clamp(27px,2.8vw,46px);line-height:.96}
-.auctionPanel{min-width:0;padding:28px 20px;display:flex;flex-direction:column;align-items:center;text-align:center;border-left:1px solid #d5dfd8}.auctionPanel .state{display:inline-block;padding:10px 18px;border-radius:10px;font-size:25px;font-weight:1000}.auctionPanel.sold{background:linear-gradient(155deg,#052e40,#064b54);color:#fff}.auctionPanel.sold .state{background:#a81414;color:#fff;border:2px solid var(--gold)}.auctionPanel.sold>img{width:120px;height:120px;margin:18px 0 8px;object-fit:contain}.auctionPanel.sold small,.auctionPanel.sold label{color:var(--gold)}.auctionPanel.sold h3{margin:4px 0;font-size:22px}.auctionPanel.sold strong{margin:3px 0 18px;font-size:34px}.auctionPanel.sold button{margin-top:auto;width:100%;padding:11px;border-radius:8px;background:var(--lime);color:#17310f}.auctionPanel.available,.auctionPanel.unsold,.auctionPanel.withdrawn{justify-content:flex-start;background:linear-gradient(155deg,#052e22,#07482f);color:#fff;border-left:1px solid #d5b654}.auctionPanel.available>small,.auctionPanel.unsold>small,.auctionPanel.withdrawn>small{color:var(--gold);font-size:11px;font-weight:900;letter-spacing:1.5px}.auctionPanel.available .state{margin-top:20px;background:var(--lime);color:#17310f}.auctionPanel.unsold .state{margin-top:20px;background:#ffb52e;color:#25300a}.auctionPanel.withdrawn .state{margin-top:20px;background:linear-gradient(#8d9aa1,#536069);color:#fff}.statusIcon{width:128px;height:128px;margin:32px auto 13px;border:3px solid var(--gold);border-radius:50%;display:grid;place-items:center;color:var(--gold);font-size:58px}.auctionPanel h3{margin:8px 0 3px;font-size:23px}.auctionPanel p{margin:0;color:#d0ddd5}.statusCallout{width:100%;margin-top:auto;padding:13px;border:2px solid var(--gold);border-radius:10px;color:#ffe9a8;font-size:17px;font-weight:900}.showcaseCard footer{grid-column:1/-1;display:grid;grid-template-columns:32% 1fr auto;align-items:center;padding:0 20px;background:#f0f3eb;color:#17231b}.showcaseCard footer span{text-align:center}.showcaseCard footer strong{color:#075b38}
-.teamsGrid{display:grid;grid-template-columns:repeat(2,1fr);gap:13px}.teamsGrid article{display:grid;grid-template-columns:100px 1fr auto;gap:14px;align-items:center;padding:16px;border:1px solid #b8953d;border-radius:16px;background:#06432dee}.teamsGrid img{width:95px;height:95px;object-fit:contain}.teamsGrid h2,.teamsGrid p{margin:4px}.teamsGrid button{padding:10px;border-radius:8px;background:var(--lime)}#teamDetail>#back{display:inline-flex;align-items:center;justify-content:center;min-width:190px;min-height:48px;margin:4px 0 16px;padding:11px 22px;border:2px solid var(--lime);border-radius:12px;background:linear-gradient(135deg,#0b5b39,#063522);color:#fff;font-size:17px}.teamHero{display:grid;grid-template-columns:1.1fr 1fr;gap:15px}.captain,.teamIdent{min-height:470px;padding:20px;border:1px solid #b8953d;border-radius:20px;background:#06432d;display:flex;flex-direction:column;align-items:center;justify-content:center}.captain img,.captain>div{width:100%;height:340px;object-fit:contain}.captain>div{display:grid;place-items:center;font-size:60px}.captain small{color:var(--gold)}.captain h2{font-size:40px;margin:5px}.teamIdent img{width:180px;height:180px;object-fit:contain}.teamIdent h1{font-size:55px;text-align:center}.teamTabs{display:flex;gap:14px;margin:22px 0 12px;border-bottom:1px solid #ffffff35}.teamTabs button{padding:10px 18px;background:transparent;color:#fff;border-bottom:4px solid transparent}.teamTabs button.active{color:var(--lime);border-color:var(--lime)}.teamOverviewPanel{display:grid;grid-template-columns:repeat(5,1fr);gap:10px}.teamOverviewPanel>div{padding:16px;border:1px solid #ffffff25;border-radius:12px;background:#06281e}.teamOverviewPanel small{display:block;color:#aabcb1;font-size:9px}.teamOverviewPanel b{display:block;margin-top:5px;font-size:26px;color:var(--lime)}.squadTitle{display:flex;justify-content:space-between}.roleFilters{display:flex;gap:8px;flex-wrap:wrap;margin:10px 0 13px}.roleFilters button{padding:8px 13px;border:1px solid #ffffff45;border-radius:999px;background:transparent;color:#fff}.roleFilters button.active{background:var(--lime);color:#17310f}.squadList button{width:100%;display:grid;grid-template-columns:1.5fr .7fr .8fr .65fr 105px;padding:13px;border-bottom:1px solid #dfe7e1;background:#fff;text-align:left}.squadList button em{color:#075b38;font-size:11px;font-style:normal;font-weight:900}.admin{max-width:620px;margin:auto;padding:24px;border-radius:20px;background:#fff;color:var(--ink)}.admin label{display:block;margin:12px 0;font-weight:800}.primary{width:100%;padding:12px;border-radius:9px;background:#075b38;color:#fff}.adminHead{display:flex;justify-content:space-between}.hidden{display:none!important}dialog{border:1px solid #b8953d;border-radius:18px;padding:0;max-width:1000px;width:95%;background:transparent}dialog::backdrop{background:#00150ed9}.dialogClose{position:absolute;right:12px;top:12px;z-index:5;width:40px;height:40px;border-radius:50%}.dialogActions{display:flex;justify-content:flex-end;gap:8px;padding:15px;background:#fff}#confirm{padding:20px;background:#fff;color:#17231b;max-width:500px}
-@media(min-width:901px) and (max-height:900px){.identity{padding:18px 26px}.identity h1{font-size:clamp(34px,3.65vw,58px);line-height:.92;margin:6px 0 8px}.pills span{padding:6px 12px;font-size:10px}.identity h2{margin:8px 0 6px;font-size:13px}.detailGrid{grid-template-rows:repeat(3,minmax(52px,1fr));gap:6px}.detailGrid>div{padding:7px 10px}.detailGrid b{font-size:13px}}
-@media(max-width:900px){html,body{overflow:auto}header{height:auto;grid-template-columns:1fr 42px;padding:8px 12px 0;position:sticky;top:0;z-index:10}.brand img{width:55px;height:55px}.brand b{font-size:23px}nav{grid-column:1/-1;display:grid;grid-template-columns:repeat(5,1fr);height:44px}nav button{font-size:9px;padding:0 3px}main{height:auto;padding:9px}.view{height:auto}.homeHero{padding:25px;min-height:550px}.homeTeams,.homeStats{grid-template-columns:repeat(2,1fr)}.filters{grid-template-columns:1fr}.listHead{display:none}.listBody button{grid-template-columns:1fr auto}.listBody button span:nth-child(n+4){display:none}.showNav{grid-template-columns:1fr 1fr}.showNav select{grid-column:1/-1;grid-row:1}.showNav span{display:none}.showcaseCard{height:auto;min-height:0;grid-template-columns:1fr;grid-template-rows:auto}.showPhoto{height:min(95vw,430px)}.identity{overflow:visible;padding:20px 16px}.identity h1,.identity.long-name h1,.identity.very-long-name h1{font-size:clamp(34px,11vw,48px);line-height:1}.detailGrid{grid-template-rows:none}.auctionPanel{min-height:280px;border-left:0}.showcaseCard footer{grid-column:1;grid-template-columns:1fr;text-align:center;gap:4px;padding:12px}.teamsGrid{grid-template-columns:1fr}.teamsGrid article{grid-template-columns:75px 1fr}.teamsGrid img{width:70px;height:70px}.teamsGrid button{grid-column:1/-1}.teamHero{grid-template-columns:1fr}.captain,.teamIdent{min-height:400px}.teamOverviewPanel{grid-template-columns:1fr 1fr}.squadList button{grid-template-columns:1fr auto}.squadList button span,.squadList button em{display:none}}
+*{box-sizing:border-box}:root{--navy:#0b2a57;--navy2:#123d78;--blue:#1261d7;--blue2:#2e7cec;--sky:#eaf4ff;--pale:#f4f7fb;--white:#fff;--ink:#13233f;--muted:#60708c;--line:#d5deeb;--gold:#e7ad22;--teal:#16a394;--amber:#e8a32b;--slate:#747f92;--red:#cf3f4f}html,body{margin:0;width:100%;height:100%;overflow:hidden;font-family:Segoe UI,Arial,sans-serif;background:linear-gradient(135deg,#f8fbff,#edf3fb);color:var(--ink)}button,input,select{font:inherit}button{cursor:pointer;border:0;font-weight:800}header{height:78px;display:grid;grid-template-columns:1fr auto 44px;align-items:center;gap:20px;padding:7px 3vw;background:#fff;border-bottom:1px solid #d5deeb;box-shadow:0 6px 22px #1d376214;position:relative;z-index:10}.brand{display:flex;align-items:center;gap:11px}.brand img{width:62px;height:62px;object-fit:contain}.brand b{display:block;color:var(--navy);font-size:28px;font-style:italic;line-height:1}.brand small{display:block;margin-top:5px;color:#52637e;font-size:8px;letter-spacing:2.5px}nav{display:flex;height:100%}nav button{padding:0 13px;background:transparent;color:var(--navy);border-bottom:4px solid transparent}nav button.active{color:var(--blue);border-color:var(--gold)}.round{width:40px;height:40px;border-radius:50%;background:#eef4fb;color:var(--navy)}main{height:calc(100vh - 78px);padding:12px 3vw 16px}.view{display:none;height:100%}.view.active{display:block}.scroll{overflow:auto}.hidden{display:none!important}.live{position:fixed;right:13px;bottom:12px;z-index:20;padding:8px 13px;border-radius:999px;background:var(--teal);color:#fff;font-size:11px;font-weight:900;box-shadow:0 5px 16px #0f756634}
+/* Home */.homeHero{min-height:410px;display:flex;align-items:center;padding:clamp(34px,5vw,70px);border:1px solid #c9d6e8;border-radius:18px;background-image:linear-gradient(90deg,#f8fbffee 0%,#f8fbffdb 40%,#f8fbff33 72%,transparent),url('hero-stadium.png');background-size:cover;background-position:center;box-shadow:0 12px 34px #2c5b9120}.homeHero>div{max-width:760px}.homeHero small{color:#8b6800;letter-spacing:3.5px;font-weight:900}.homeHero h1{margin:11px 0 14px;font:800 clamp(44px,5.4vw,78px)/.98 Georgia;color:var(--navy)}.homeHero p{font-size:22px;color:#324561}.actions{display:flex;gap:12px;margin-top:24px}.actions button{padding:13px 18px;border-radius:8px;background:linear-gradient(135deg,var(--blue2),var(--blue));color:#fff;box-shadow:0 8px 18px #1764c52f}.actions button+button{background:#fff;color:var(--blue);border:1px solid var(--blue);box-shadow:none}.homeStats{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin:12px 0}.homeStats div{padding:14px 16px;border:1px solid var(--line);border-radius:11px;background:#fff;box-shadow:0 7px 18px #24466f10}.homeStats b{display:block;font-size:27px;color:var(--navy)}.homeStats small{color:var(--muted);font-size:9px;letter-spacing:1px}.sectionTitle{margin:18px 0 10px;font:800 38px Georgia;color:var(--navy)}.homeTeams{display:grid;grid-template-columns:repeat(6,1fr);gap:10px}.homeTeams button{padding:12px;border:1px solid var(--line);border-top:4px solid var(--blue);border-radius:11px;background:#fff;color:var(--ink);box-shadow:0 7px 20px #24466f10}.homeTeams img{width:100%;height:105px;object-fit:contain}.homeTeams h3{min-height:38px;margin:6px 0}.homeTeams small{display:block;color:var(--muted)}
+/* Filters and lists */.filters{display:grid;grid-template-columns:2fr repeat(3,1fr);gap:10px;margin-bottom:12px}.filters input,.filters select,.showNav select,.admin input,.admin select{width:100%;height:42px;padding:0 11px;border:1px solid #bccae0;border-radius:8px;background:#fff;color:var(--ink);font:inherit}.listHead,.listBody button{display:grid;grid-template-columns:1.35fr .7fr .8fr .9fr 1fr .65fr 1fr;gap:10px;align-items:center}.listHead{padding:11px 14px;border:1px solid var(--line);border-radius:10px 10px 0 0;background:#e8f0ff;color:var(--navy);font-size:9px;letter-spacing:.8px}.listBody{overflow:hidden;border:1px solid var(--line);border-top:0;border-radius:0 0 11px 11px;box-shadow:0 8px 20px #24466f0e}.listBody button{width:100%;min-height:62px;padding:10px 14px;border-bottom:1px solid #e4eaf3;background:#fff;color:var(--ink);text-align:left}.listBody button:hover{background:#f2f7ff}.listBody small,.listBody b{display:block}.listBody small{color:var(--muted)}.status{display:inline-block;padding:5px 9px;border-radius:999px;font-size:10px;font-style:normal}.status.available{background:#dcecff;color:#1054a4}.status.sold{background:#d6f4ef;color:#087a6d}.status.unsold{background:#fff0c8;color:#8f5c00}.status.withdrawn{background:#e8eaf0;color:#505b70}
+/* Showcase */.showNav{height:43px;display:grid;grid-template-columns:auto minmax(240px,420px) 1fr auto;gap:10px;align-items:center;margin-bottom:9px}.showNav button{height:39px;padding:0 16px;border:1px solid #aebfda;border-radius:8px;background:#fff;color:var(--blue)}.showNav span{text-align:center;color:var(--navy);font-size:11px;letter-spacing:1.5px}.showcaseCard{height:calc(100vh - 151px);min-height:530px;display:grid;grid-template-columns:34% 66%;grid-template-rows:minmax(0,1fr) 64px;overflow:hidden;border:1px solid #b9c9de;border-radius:17px;background:#fff;box-shadow:0 16px 42px #284f7c20}.showPhoto{position:relative;min-width:0;padding:12px;background:linear-gradient(145deg,#edf3f9,#dce7f3)}.photoFrame{position:relative;width:100%;height:100%;overflow:hidden;border-radius:11px;background:#dce5ef}.blurPhoto{position:absolute;inset:-22px;width:calc(100% + 44px);height:calc(100% + 44px);object-fit:cover;filter:blur(20px) brightness(.72) saturate(.72);transform:scale(1.08);opacity:.65}.sharpPhoto{position:relative;width:100%;height:100%;object-fit:contain;filter:drop-shadow(0 10px 21px #29466b35)}.placeholder{width:100%;height:100%;display:flex;flex-direction:column;align-items:center;justify-content:center;background:linear-gradient(145deg,#c8d6e7,#edf3f9);color:var(--navy)}.placeholder b{font-size:60px}.placeholder small{margin-top:8px;color:var(--blue)}.soldStamp{position:absolute;left:6%;bottom:8%;z-index:3;transform:rotate(-8deg);padding:7px 17px;border:5px double #fff;background:#c82f45df;color:#fff;font-size:36px;font-weight:1000}.identity{min-width:0;min-height:0;padding:clamp(18px,2.4vw,37px);background:#fff;color:var(--ink);display:flex;flex-direction:column;overflow:hidden}.identity>small{color:var(--blue);font-weight:900;letter-spacing:1.4px}.identity h1{margin:7px 0 9px;font-size:clamp(37px,4vw,66px);line-height:.96;letter-spacing:-1.8px;color:var(--navy);overflow-wrap:anywhere}.pills{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:9px}.pills span{padding:6px 12px;border-radius:999px;background:#e5efff;color:#1553a0;font-size:11px;font-weight:900}.identity h2{margin:10px 0 7px;font-size:13px;color:var(--navy);letter-spacing:1px;text-transform:uppercase}.detailGrid{flex:1;min-height:0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));grid-template-rows:repeat(3,minmax(55px,1fr));gap:8px}.detailGrid div{min-height:0;padding:9px 12px;border:1px solid #d6dfec;border-radius:9px;background:#f8faff;display:flex;flex-direction:column;justify-content:center}.detailGrid small{color:var(--muted);font-size:8px;font-weight:900}.detailGrid b{margin-top:3px;color:var(--navy);font-size:clamp(13px,1.15vw,16px);line-height:1.12;overflow-wrap:anywhere}.identity.long-name h1{font-size:clamp(30px,3.2vw,51px)}.identity.very-long-name h1{font-size:clamp(26px,2.7vw,44px)}
+/* Status ribbons */.auctionPanel{grid-column:1/-1;min-width:0;padding:9px 18px;display:grid;grid-template-columns:auto auto 1fr auto;gap:14px;align-items:center;text-align:left;border-top:1px solid #c8d7e8;background:#e5f1ff;color:var(--ink)}.auctionPanel>small{font-size:9px;color:var(--muted);letter-spacing:1px}.auctionPanel .state{display:inline-flex;align-items:center;justify-content:center;min-width:120px;padding:8px 14px;border-radius:8px;font-size:17px;font-weight:1000}.auctionPanel h3,.auctionPanel p{margin:0}.auctionPanel h3{font-size:18px;color:var(--navy)}.auctionPanel p{color:var(--muted)}.statusIcon,.statusCallout{display:none}.auctionPanel.available .state{background:var(--blue);color:#fff}.auctionPanel.unsold{background:#fff6dd}.auctionPanel.unsold .state{background:var(--amber);color:#fff}.auctionPanel.withdrawn{background:#eef0f4}.auctionPanel.withdrawn .state{background:var(--slate);color:#fff}.auctionPanel.sold{grid-template-columns:auto 58px minmax(140px,1fr) auto auto auto;background:#e2f7f4;color:var(--ink)}.auctionPanel.sold .state{background:var(--teal);color:#fff}.auctionPanel.sold>img{width:52px;height:52px;object-fit:contain;margin:0}.auctionPanel.sold>small{display:none}.auctionPanel.sold h3{font-size:17px}.auctionPanel.sold p{font-size:12px}.auctionPanel.sold label{color:var(--muted);font-size:9px}.auctionPanel.sold strong{font-size:22px;color:#0a665d}.auctionPanel.sold button{padding:10px 14px;border-radius:8px;background:var(--blue);color:#fff}.showcaseCard footer{display:none}
+/* Teams */#teamsOverview>h1{margin:4px 0;color:var(--navy);font-size:42px}#teamsOverview>p{color:var(--muted)}.teamsGrid{display:grid;grid-template-columns:repeat(3,1fr);gap:13px}.teamsGrid article{display:grid;grid-template-columns:95px 1fr;gap:13px;align-items:center;padding:16px;border:1px solid var(--line);border-top:5px solid var(--blue);border-radius:14px;background:#fff;box-shadow:0 8px 22px #24466f10}.teamsGrid article:nth-child(2n){border-top-color:#e34c53}.teamsGrid article:nth-child(3n){border-top-color:#e9ad21}.teamsGrid img{width:90px;height:90px;object-fit:contain}.teamsGrid h2,.teamsGrid p{margin:4px}.teamsGrid button{grid-column:2;padding:9px 12px;border:1px solid var(--blue);border-radius:8px;background:#fff;color:var(--blue)}#teamDetail>#back{display:inline-flex;align-items:center;justify-content:center;min-width:160px;min-height:43px;margin:3px 0 13px;padding:9px 16px;border:1.5px solid var(--blue);border-radius:8px;background:#fff;color:var(--blue);font-size:14px}.teamHero{display:grid;grid-template-columns:1.1fr 1fr;gap:13px}.captain,.teamIdent{min-height:340px;padding:18px;border:1px solid #c9d7e8;border-radius:15px;background:linear-gradient(145deg,#e8f2ff,#f9fbff);display:flex;flex-direction:column;align-items:center;justify-content:center}.captain img,.captain>div{width:100%;height:235px;object-fit:contain}.captain>div{display:grid;place-items:center;color:var(--navy);font-size:50px}.captain small{color:var(--muted)}.captain h2{margin:4px;color:var(--navy);font-size:31px}.teamIdent img{width:150px;height:150px;object-fit:contain}.teamIdent h1{margin:5px;color:var(--navy);font-size:42px;text-align:center}.teamIdent p{color:var(--muted)}.teamTabs{display:flex;gap:13px;margin:18px 0 10px;border-bottom:1px solid #d7e0ec}.teamTabs button{padding:9px 16px;background:transparent;color:var(--navy);border-bottom:4px solid transparent}.teamTabs button.active{color:var(--blue);border-color:var(--gold)}.teamOverviewPanel{display:grid;grid-template-columns:repeat(5,1fr);gap:9px}.teamOverviewPanel>div{padding:14px;border:1px solid var(--line);border-radius:10px;background:#fff}.teamOverviewPanel small{display:block;color:var(--muted);font-size:8px}.teamOverviewPanel b{display:block;margin-top:4px;color:var(--navy);font-size:23px}.squadTitle{display:flex;justify-content:space-between;color:var(--navy)}.roleFilters{display:flex;gap:7px;flex-wrap:wrap;margin:9px 0 12px}.roleFilters button{padding:7px 12px;border:1px solid #b8c6da;border-radius:999px;background:#fff;color:var(--navy)}.roleFilters button.active{background:var(--blue);color:#fff;border-color:var(--blue)}.squadList{border:1px solid var(--line);border-radius:10px;overflow:hidden}.squadList button{width:100%;display:grid;grid-template-columns:1.5fr .7fr .8fr .65fr 105px;padding:12px;border-bottom:1px solid #e4eaf2;background:#fff;color:var(--ink);text-align:left}.squadList button:hover{background:#f1f6ff}.squadList button em{color:var(--blue);font-size:11px;font-style:normal;font-weight:900}
+/* Admin and dialogs */.admin{max-width:720px;margin:auto;padding:25px;border:1px solid var(--line);border-radius:16px;background:#fff;color:var(--ink);box-shadow:0 14px 37px #24466f17}.admin label{display:block;margin:12px 0;color:var(--navy);font-weight:800}.primary{width:100%;padding:12px;border-radius:8px;background:linear-gradient(135deg,var(--blue2),var(--blue));color:#fff}.adminHead{display:flex;justify-content:space-between}.adminHead h1{color:var(--navy)}dialog{border:1px solid #b8c7db;border-radius:15px;padding:0;max-width:1000px;width:95%;background:#fff}dialog::backdrop{background:#0b1c3499}.dialogClose{position:absolute;right:12px;top:12px;z-index:5;width:39px;height:39px;border-radius:50%;background:#eef3fa;color:var(--navy)}.dialogActions{display:flex;justify-content:flex-end;gap:8px;padding:15px;background:#fff}#confirm{padding:20px;color:var(--ink);max-width:500px}
+@media(min-width:901px) and (max-height:900px){.identity{padding:16px 24px}.identity h1{font-size:clamp(32px,3.5vw,56px);margin:5px 0 7px}.pills span{padding:5px 10px}.identity h2{margin:7px 0 5px}.detailGrid{grid-template-rows:repeat(3,minmax(48px,1fr));gap:6px}.detailGrid div{padding:6px 9px}.detailGrid b{font-size:13px}.auctionPanel{padding:7px 15px}}
+@media(max-width:900px){html,body{overflow:auto}header{height:auto;grid-template-columns:1fr 42px;padding:8px 12px 0;position:sticky;top:0;z-index:10}.brand img{width:53px;height:53px}.brand b{font-size:22px}nav{grid-column:1/-1;display:grid;grid-template-columns:repeat(5,1fr);height:44px}nav button{font-size:9px;padding:0 3px}main{height:auto;padding:9px}.view{height:auto}.homeHero{padding:25px;min-height:520px}.homeHero h1{font-size:48px}.homeTeams,.homeStats{grid-template-columns:repeat(2,1fr)}.filters{grid-template-columns:1fr}.listHead{display:none}.listBody button{grid-template-columns:1fr auto}.listBody button span:nth-child(n+4){display:none}.showNav{grid-template-columns:1fr 1fr}.showNav select{grid-column:1/-1;grid-row:1}.showNav span{display:none}.showcaseCard{height:auto;min-height:0;grid-template-columns:1fr;grid-template-rows:auto}.showPhoto{height:min(98vw,430px)}.identity{overflow:visible;padding:19px 15px}.identity h1,.identity.long-name h1,.identity.very-long-name h1{font-size:clamp(33px,10.5vw,47px);line-height:1}.detailGrid{grid-template-rows:none}.auctionPanel,.auctionPanel.sold{grid-column:1;grid-template-columns:1fr;gap:6px;text-align:center;padding:14px}.auctionPanel.sold>img{margin:auto}.showcaseCard footer{display:none}.teamsGrid{grid-template-columns:1fr}.teamsGrid article{grid-template-columns:75px 1fr}.teamsGrid img{width:70px;height:70px}.teamHero{grid-template-columns:1fr}.captain,.teamIdent{min-height:340px}.teamOverviewPanel{grid-template-columns:1fr 1fr}.squadList button{grid-template-columns:1fr auto}.squadList button span,.squadList button em{display:none}}
+
+/* =========================================================
+   BALANCED LIGHT THEME v2
+   More color depth, tighter detail boxes, improved showcase
+   ========================================================= */
+:root{
+  --page-a:#e8f1fb;
+  --page-b:#f5f0ff;
+  --page-c:#eef7f5;
+  --surface:#ffffff;
+  --surface-soft:#f5f8fc;
+  --surface-blue:#e9f2ff;
+  --surface-lav:#f1edff;
+  --surface-gold:#fff7df;
+  --navy:#102b56;
+  --blue:#1766d7;
+  --purple:#6d55c7;
+  --teal:#138f83;
+}
+
+html,body{
+  background:
+    radial-gradient(circle at 8% 2%, rgba(86,154,225,.19), transparent 27%),
+    radial-gradient(circle at 96% 8%, rgba(124,92,206,.15), transparent 24%),
+    linear-gradient(135deg,var(--page-a) 0%,#f8fbff 42%,var(--page-b) 76%,var(--page-c) 100%);
+  background-attachment:fixed;
+}
+
+header{
+  background:rgba(255,255,255,.92);
+  backdrop-filter:blur(14px);
+  border-bottom:1px solid rgba(139,160,193,.38);
+}
+
+main{
+  background:
+    linear-gradient(120deg,rgba(255,255,255,.18),rgba(228,238,252,.32));
+}
+
+/* Showcase navigation becomes more intentional */
+.showNav{
+  padding:4px;
+  border:1px solid rgba(175,193,219,.58);
+  border-radius:12px;
+  background:rgba(255,255,255,.64);
+  box-shadow:0 6px 20px rgba(37,76,122,.08);
+}
+
+/* Showcase uses a colorful editorial split */
+.showcaseCard{
+  grid-template-columns:minmax(300px,32%) minmax(0,68%);
+  grid-template-rows:minmax(0,1fr) 62px;
+  border:0;
+  border-radius:20px;
+  background:linear-gradient(135deg,#fff 0%,#f8fbff 72%,#f3f0ff 100%);
+  box-shadow:0 22px 58px rgba(30,65,112,.24);
+}
+
+.showPhoto{
+  padding:14px;
+  background:
+    radial-gradient(circle at 20% 12%,rgba(73,147,225,.30),transparent 30%),
+    linear-gradient(160deg,#d9e9fb,#ece8fb 54%,#e0f2ed);
+  border-right:1px solid rgba(166,184,211,.55);
+}
+
+.photoFrame{
+  border:1px solid rgba(255,255,255,.92);
+  border-radius:15px;
+  box-shadow:0 14px 32px rgba(26,57,98,.24);
+}
+
+.identity{
+  padding:clamp(16px,2vw,30px);
+  background:
+    radial-gradient(circle at 100% 0,rgba(109,85,199,.10),transparent 32%),
+    linear-gradient(145deg,#fff,#f8fbff 70%);
+}
+
+.identity>small{
+  display:inline-flex;
+  width:max-content;
+  padding:5px 9px;
+  border-radius:999px;
+  background:#e6f0ff;
+  color:#1555a5;
+  letter-spacing:1px;
+}
+
+.identity h1{
+  margin:8px 0 8px;
+  font-size:clamp(34px,3.55vw,59px);
+  line-height:.97;
+}
+
+.pills span:nth-child(odd){background:#e8f2ff;color:#1158aa}
+.pills span:nth-child(even){background:#fff0d3;color:#8a5a00}
+
+.identity h2{
+  margin:8px 0 7px;
+  padding-bottom:6px;
+  border-bottom:1px solid #dfe7f2;
+}
+
+/* Compact detail cards: no oversized empty areas */
+.detailGrid{
+  grid-template-columns:repeat(3,minmax(0,1fr));
+  grid-template-rows:repeat(2,minmax(82px,1fr));
+  gap:9px;
+}
+
+.detailGrid div{
+  min-height:82px;
+  padding:11px 12px;
+  justify-content:center;
+  border:1px solid rgba(181,196,219,.70);
+  border-left:4px solid var(--blue);
+  border-radius:11px;
+  background:rgba(255,255,255,.86);
+  box-shadow:0 6px 15px rgba(34,71,116,.07);
+}
+.detailGrid div:nth-child(2),.detailGrid div:nth-child(5){border-left-color:var(--purple);background:#faf8ff}
+.detailGrid div:nth-child(3),.detailGrid div:nth-child(6){border-left-color:var(--teal);background:#f5fbfa}
+.detailGrid small{font-size:8px;letter-spacing:.4px}
+.detailGrid b{font-size:clamp(13px,1.05vw,16px)}
+
+/* Status ribbon feels integrated rather than like a footer */
+.auctionPanel{
+  min-height:62px;
+  border-top:1px solid rgba(162,183,211,.72);
+  background:linear-gradient(90deg,#dcecff,#eef5ff);
+}
+.auctionPanel.available{background:linear-gradient(90deg,#d9ecff,#eef5ff 64%,#f4f0ff)}
+.auctionPanel.available .state{background:linear-gradient(135deg,#287ee8,#1559c0)}
+.auctionPanel.unsold{background:linear-gradient(90deg,#fff0cb,#fff8e9)}
+.auctionPanel.withdrawn{background:linear-gradient(90deg,#e8ebf1,#f5f6f8)}
+.auctionPanel.sold{background:linear-gradient(90deg,#d6f4ef,#edfafa)}
+
+/* Other pages gain colored surfaces without becoming dark */
+.homeStats div:nth-child(1){background:#eaf3ff}
+.homeStats div:nth-child(2){background:#f2edff}
+.homeStats div:nth-child(3){background:#fff6dd}
+.homeStats div:nth-child(4){background:#eaf8f5}
+.homeTeams button:nth-child(3n+1){border-top-color:#1766d7;background:#f7fbff}
+.homeTeams button:nth-child(3n+2){border-top-color:#7658cc;background:#fbf9ff}
+.homeTeams button:nth-child(3n){border-top-color:#e4a91f;background:#fffaf0}
+
+#players .filters{
+  padding:12px;
+  border:1px solid rgba(174,193,219,.62);
+  border-radius:13px;
+  background:rgba(255,255,255,.72);
+  box-shadow:0 8px 22px rgba(35,71,115,.08);
+}
+
+#teamsOverview,
+#teamDetail,
+#players{
+  padding:4px;
+}
+
+.teamHero{
+  padding:10px;
+  border:1px solid rgba(174,193,219,.62);
+  border-radius:18px;
+  background:linear-gradient(130deg,#eaf3ff,#f3efff 56%,#eaf8f5);
+}
+
+.admin{
+  background:linear-gradient(145deg,#fff,#f7faff 65%,#f4f0ff);
+}
+
+/* Short screens: keep all six details in view */
+@media (min-width:901px) and (max-height:900px){
+  .detailGrid{
+    grid-template-columns:repeat(3,minmax(0,1fr));
+    grid-template-rows:repeat(2,minmax(66px,1fr));
+  }
+  .detailGrid div{min-height:66px;padding:8px 10px}
+  .identity h1{font-size:clamp(30px,3.2vw,52px)}
+}
+
+@media(max-width:1100px) and (min-width:901px){
+  .detailGrid{grid-template-columns:repeat(2,minmax(0,1fr));grid-template-rows:repeat(3,minmax(58px,1fr))}
+  .detailGrid div{min-height:58px}
+}
+
+@media(max-width:900px){
+  .showcaseCard{grid-template-columns:1fr;grid-template-rows:auto}
+  .showPhoto{border-right:0;border-bottom:1px solid #cbd9ea}
+  .detailGrid{grid-template-columns:repeat(2,minmax(0,1fr));grid-template-rows:none}
+  .detailGrid div{min-height:72px}
+  .auctionPanel{min-height:0}
+}
+
+@media(max-width:460px){
+  .detailGrid{grid-template-columns:1fr}
+}
+
+/* =========================================================
+   COMPACT PLAYER SHOWCASE v3
+   Fixes oversized detail cards and uses whitespace properly.
+   ========================================================= */
+
+/* Keep the showcase balanced: photo 36%, information 64%. */
+.showcaseCard {
+  grid-template-columns: minmax(320px, 36%) minmax(0, 64%);
+  grid-template-rows: minmax(0, 1fr) 60px;
+}
+
+/* Player identity uses content height instead of stretching tiles. */
+#showcase .identity {
+  position: relative;
+  display: block;
+  padding: clamp(20px, 2.4vw, 36px);
+  overflow: hidden;
+}
+
+/* Add subtle sports pattern to use the open area without extra boxes. */
+#showcase .identity::after {
+  content: "FCPL 2026";
+  position: absolute;
+  right: 24px;
+  bottom: 20px;
+  color: rgba(23, 102, 215, 0.045);
+  font-size: clamp(54px, 7vw, 108px);
+  font-weight: 1000;
+  font-style: italic;
+  letter-spacing: -5px;
+  pointer-events: none;
+  white-space: nowrap;
+}
+
+#showcase .identity > small,
+#showcase .identity h1,
+#showcase .identity .pills,
+#showcase .identity h2,
+#showcase .identity .detailGrid {
+  position: relative;
+  z-index: 1;
+}
+
+#showcase .identity h1 {
+  max-width: 100%;
+  margin: 9px 0 10px;
+  font-size: clamp(38px, 4vw, 65px);
+  line-height: 0.98;
+}
+
+#showcase .identity h2 {
+  width: 100%;
+  max-width: 860px;
+  margin: 18px 0 9px;
+  padding-bottom: 7px;
+}
+
+/* Compact 3 x 2 information grid with fixed sensible heights. */
+#showcase .detailGrid {
+  width: 100%;
+  max-width: 900px;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-rows: repeat(2, 94px);
+  gap: 10px;
+  flex: none;
+}
+
+#showcase .detailGrid > div {
+  min-height: 0;
+  height: 94px;
+  padding: 13px 15px;
+  justify-content: center;
+  border-radius: 10px;
+  background: rgba(255,255,255,.92);
+  box-shadow: 0 5px 14px rgba(34,71,116,.06);
+}
+
+#showcase .detailGrid small {
+  margin: 0;
+  font-size: 8px;
+  line-height: 1.1;
+  letter-spacing: .55px;
+}
+
+#showcase .detailGrid b {
+  margin-top: 6px;
+  font-size: clamp(14px, 1.1vw, 17px);
+  line-height: 1.15;
+}
+
+/* Long names shrink, but details retain the same compact height. */
+#showcase .identity.long-name h1 {
+  font-size: clamp(33px, 3.45vw, 55px);
+}
+
+#showcase .identity.very-long-name h1 {
+  font-size: clamp(29px, 3vw, 49px);
+}
+
+/* On shorter projector/laptop screens, cards become even tighter. */
+@media (min-width: 901px) and (max-height: 900px) {
+  #showcase .identity {
+    padding: 17px 26px;
+  }
+
+  #showcase .identity h1 {
+    margin: 6px 0 8px;
+    font-size: clamp(34px, 3.45vw, 55px);
+  }
+
+  #showcase .identity.long-name h1 {
+    font-size: clamp(29px, 3vw, 48px);
+  }
+
+  #showcase .identity.very-long-name h1 {
+    font-size: clamp(26px, 2.65vw, 43px);
+  }
+
+  #showcase .identity h2 {
+    margin: 10px 0 7px;
+  }
+
+  #showcase .detailGrid {
+    grid-template-rows: repeat(2, 76px);
+    gap: 8px;
+  }
+
+  #showcase .detailGrid > div {
+    height: 76px;
+    padding: 9px 12px;
+  }
+
+  #showcase .detailGrid b {
+    margin-top: 4px;
+    font-size: 13px;
+  }
+}
+
+/* Medium desktop: preserve compact cards, switch only when required. */
+@media (min-width: 901px) and (max-width: 1180px) {
+  .showcaseCard {
+    grid-template-columns: minmax(290px, 35%) minmax(0, 65%);
+  }
+
+  #showcase .detailGrid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-rows: repeat(3, 70px);
+  }
+
+  #showcase .detailGrid > div {
+    height: 70px;
+  }
+}
+
+/* Mobile remains naturally scrollable and uses useful card sizes. */
+@media (max-width: 900px) {
+  .showcaseCard {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+  }
+
+  #showcase .identity {
+    padding: 20px 16px 24px;
+    overflow: visible;
+  }
+
+  #showcase .identity::after {
+    display: none;
+  }
+
+  #showcase .identity h1,
+  #showcase .identity.long-name h1,
+  #showcase .identity.very-long-name h1 {
+    font-size: clamp(34px, 10.5vw, 48px);
+  }
+
+  #showcase .detailGrid {
+    max-width: none;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-rows: none;
+    gap: 8px;
+  }
+
+  #showcase .detailGrid > div {
+    height: auto;
+    min-height: 72px;
+    padding: 10px 12px;
+  }
+}
+
+@media (max-width: 460px) {
+  #showcase .detailGrid {
+    grid-template-columns: 1fr;
+  }
+
+  #showcase .detailGrid > div {
+    min-height: 66px;
+  }
+}
+
+/* =========================================================
+   NAVIGATION BAR ALIGNMENT + SOLD TEAM FEATURE v4
+   ========================================================= */
+
+/* Previous, player selector, count and Next share one true row. */
+.showNav {
+  height: 50px;
+  padding: 5px;
+  display: grid;
+  grid-template-columns: 116px minmax(270px, 420px) minmax(150px, 1fr) 92px;
+  gap: 10px;
+  align-items: stretch;
+  border: 1px solid rgba(175,193,219,.75);
+  border-radius: 12px;
+  background: rgba(255,255,255,.82);
+  box-shadow: 0 7px 20px rgba(37,76,122,.10);
+}
+
+.showNav > button,
+.showNav > select,
+.showNav > span {
+  height: 38px;
+  min-height: 38px;
+  margin: 0;
+  align-self: center;
+}
+
+.showNav > button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 14px;
+  line-height: 1;
+}
+
+.showNav > select {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.showNav > span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+}
+
+/* Use the open lower-right area for a clear sold-team allocation card. */
+.soldTeamFeature {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  max-width: 900px;
+  min-height: 128px;
+  margin-top: 18px;
+  padding: 16px 18px;
+  display: grid;
+  grid-template-columns: 104px minmax(0, 1fr) auto;
+  gap: 18px;
+  align-items: center;
+  border: 1px solid rgba(19,143,131,.38);
+  border-left: 6px solid #138f83;
+  border-radius: 14px;
+  background:
+    radial-gradient(circle at 90% 15%,rgba(19,143,131,.13),transparent 30%),
+    linear-gradient(130deg,#edfafa,#f7fffd 58%,#e8f4ff);
+  box-shadow: 0 12px 28px rgba(24,85,111,.12);
+}
+
+.soldFeatureLogo {
+  width: 96px;
+  height: 96px;
+  display: grid;
+  place-items: center;
+  border: 1px solid #c7d9e7;
+  border-radius: 13px;
+  background: #fff;
+}
+
+.soldFeatureLogo img {
+  width: 88px;
+  height: 88px;
+  object-fit: contain;
+}
+
+.soldFeatureCopy {
+  min-width: 0;
+}
+
+.soldFeatureCopy small,
+.soldFeaturePrice small,
+.soldCompactTeam small,
+.soldCompactCaptain small,
+.soldCompactPrice small {
+  display: block;
+  color: #60708c;
+  font-size: 8px;
+  font-weight: 900;
+  letter-spacing: 1px;
+}
+
+.soldFeatureCopy h2 {
+  margin: 4px 0 5px !important;
+  padding: 0 !important;
+  border: 0 !important;
+  color: #102b56;
+  font-size: clamp(24px, 2.3vw, 38px) !important;
+  line-height: 1.02;
+  letter-spacing: -.5px;
+  overflow-wrap: anywhere;
+}
+
+.soldFeatureCopy p {
+  margin: 0;
+  color: #52657e;
+  font-size: 13px;
+}
+
+.soldFeaturePrice {
+  min-width: 145px;
+  text-align: right;
+}
+
+.soldFeaturePrice strong {
+  display: block;
+  margin: 4px 0 9px;
+  color: #087a6d;
+  font-size: clamp(24px, 2vw, 34px);
+  line-height: 1;
+}
+
+.soldFeaturePrice button {
+  padding: 9px 13px;
+  border-radius: 8px;
+  background: #1766d7;
+  color: #fff;
+}
+
+/* Bottom sold ribbon is clean and aligned, with a readable team name. */
+.auctionPanel.soldCompact {
+  grid-template-columns: 130px minmax(230px,1fr) minmax(130px,.55fr) minmax(145px,.55fr) 125px;
+  gap: 13px;
+  padding: 7px 17px;
+  align-items: center;
+}
+
+.soldCompactTeam {
+  min-width: 0;
+  display: grid;
+  grid-template-columns: 48px minmax(0,1fr);
+  gap: 11px;
+  align-items: center;
+}
+
+.soldCompactTeam > img {
+  width: 46px !important;
+  height: 46px !important;
+  margin: 0 !important;
+  object-fit: contain;
+}
+
+.soldCompactTeam h3 {
+  margin: 2px 0 0 !important;
+  color: #102b56;
+  font-size: 17px !important;
+  line-height: 1.05;
+  overflow-wrap: anywhere;
+}
+
+.soldCompactCaptain b {
+  display: block;
+  margin-top: 3px;
+  color: #102b56;
+  font-size: 13px;
+}
+
+.soldCompactPrice strong {
+  display: block;
+  margin: 2px 0 0 !important;
+  color: #087a6d !important;
+  font-size: 22px !important;
+  white-space: nowrap;
+}
+
+.auctionPanel.soldCompact > button {
+  width: 100%;
+  margin: 0;
+  padding: 10px 12px;
+}
+
+/* Short screens: keep allocation card visible without crowding details. */
+@media (min-width: 901px) and (max-height: 900px) {
+  .soldTeamFeature {
+    min-height: 104px;
+    margin-top: 11px;
+    padding: 10px 13px;
+    grid-template-columns: 78px minmax(0,1fr) auto;
+    gap: 12px;
+  }
+
+  .soldFeatureLogo {
+    width: 72px;
+    height: 72px;
+  }
+
+  .soldFeatureLogo img {
+    width: 66px;
+    height: 66px;
+  }
+
+  .soldFeatureCopy h2 {
+    font-size: clamp(21px,2vw,31px) !important;
+  }
+
+  .soldFeaturePrice strong {
+    font-size: 25px;
+  }
+}
+
+@media (min-width: 901px) and (max-width: 1180px) {
+  .showNav {
+    grid-template-columns: 108px minmax(220px,360px) minmax(120px,1fr) 84px;
+  }
+
+  .soldTeamFeature {
+    grid-template-columns: 76px minmax(0,1fr);
+  }
+
+  .soldFeatureLogo {
+    width: 70px;
+    height: 70px;
+  }
+
+  .soldFeatureLogo img {
+    width: 64px;
+    height: 64px;
+  }
+
+  .soldFeaturePrice {
+    grid-column: 1/-1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 12px;
+  }
+}
+
+@media (max-width: 900px) {
+  .showNav {
+    height: auto;
+    grid-template-columns: 1fr 1fr;
+    padding: 6px;
+  }
+
+  .showNav > select {
+    grid-column: 1/-1;
+    grid-row: 1;
+  }
+
+  .showNav > span {
+    display: none;
+  }
+
+  .soldTeamFeature {
+    grid-template-columns: 76px minmax(0,1fr);
+    margin-top: 14px;
+    padding: 12px;
+  }
+
+  .soldFeatureLogo {
+    width: 70px;
+    height: 70px;
+  }
+
+  .soldFeatureLogo img {
+    width: 64px;
+    height: 64px;
+  }
+
+  .soldFeaturePrice {
+    grid-column: 1/-1;
+    text-align: left;
+  }
+
+  .auctionPanel.soldCompact {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .soldCompactTeam {
+    margin: auto;
+    width: min(100%,320px);
+    text-align: left;
+  }
+}
+
+/* =========================================================
+   SINGLE SOLD DISPLAY + ADVANCED PLAYER SEARCH/FILTERS
+   ========================================================= */
+/* Hide the duplicated large allocation card. Sold information stays
+   only in the single bottom auction ribbon. */
+.soldTeamFeature{display:none!important}
+
+/* Improve the one retained SOLD ribbon. */
+.auctionPanel.soldCompact{
+  grid-template-columns:125px minmax(270px,1.35fr) minmax(130px,.55fr) minmax(145px,.55fr) 125px;
+  min-height:64px;
+  background:linear-gradient(90deg,#d9f4f0,#effafa);
+}
+.soldCompactTeam h3{font-size:clamp(15px,1.25vw,19px)!important}
+
+/* Advanced filter surface */
+.advancedFilters{
+  display:grid;
+  grid-template-columns:minmax(260px,1.7fr) repeat(4,minmax(135px,.85fr));
+  gap:9px;
+  padding:12px;
+  border:1px solid rgba(168,189,218,.75);
+  border-radius:14px;
+  background:rgba(255,255,255,.82);
+  box-shadow:0 10px 24px rgba(37,76,122,.10);
+}
+.searchBox{position:relative;min-width:0}
+.searchBox input{padding-right:42px!important}
+.searchBox button{position:absolute;right:5px;top:5px;width:32px;height:32px;border-radius:7px;background:#edf3fb;color:#34506f;font-size:19px;line-height:1}
+.resetFilters{min-height:42px;border:1px solid #1766d7;border-radius:8px;background:#fff;color:#1766d7}
+.filterSummary{display:flex;align-items:flex-start;justify-content:space-between;gap:12px;margin:9px 2px 12px;color:#425875}
+#playerResultCount{font-size:13px;font-weight:900;color:#102b56;white-space:nowrap}
+#activeFilters{display:flex;justify-content:flex-end;gap:6px;flex-wrap:wrap}
+#activeFilters span{padding:5px 8px;border-radius:999px;background:#e7f0ff;color:#18549c;font-size:10px;font-weight:800}
+.noResults{padding:55px 20px;border:1px dashed #9eb2cc;border-radius:12px;background:rgba(255,255,255,.68);text-align:center;color:#60708c}.noResults b,.noResults span{display:block}.noResults b{color:#102b56;font-size:18px}.noResults span{margin-top:5px}
+
+@media(max-width:1400px){.advancedFilters{grid-template-columns:repeat(4,minmax(0,1fr))}.searchBox{grid-column:span 2}.resetFilters{grid-column:span 1}}
+@media(max-width:900px){.advancedFilters{grid-template-columns:1fr 1fr}.searchBox{grid-column:1/-1}.filterSummary{flex-direction:column}.auctionPanel.soldCompact{grid-template-columns:1fr}}
+@media(max-width:520px){.advancedFilters{grid-template-columns:1fr}.searchBox,.resetFilters{grid-column:auto}#activeFilters{justify-content:flex-start}}
+
+/* =========================================================
+   SOLD DISPLAY CORRECTION
+   Keep the main allocation card; remove the footer SOLD ribbon.
+   ========================================================= */
+.soldTeamFeature{display:grid!important}
+
+/* A sold profile has no second status row because the complete
+   allocation is presented inside the main information area. */
+.showcaseCard.soldShowcase{
+  grid-template-rows:minmax(0,1fr);
+}
+
+.showcaseCard.soldShowcase > .showPhoto,
+.showcaseCard.soldShowcase > .identity{
+  grid-row:1;
+}
+
+.soldTeamFeature{
+  position:relative;
+  z-index:2;
+  width:100%;
+  max-width:900px;
+  min-height:128px;
+  margin-top:18px;
+  padding:16px 18px;
+  grid-template-columns:104px minmax(0,1fr) auto;
+  gap:18px;
+  align-items:center;
+  border:1px solid rgba(19,143,131,.38);
+  border-left:6px solid #138f83;
+  border-radius:14px;
+  background:radial-gradient(circle at 90% 15%,rgba(19,143,131,.13),transparent 30%),linear-gradient(130deg,#edfafa,#f7fffd 58%,#e8f4ff);
+  box-shadow:0 12px 28px rgba(24,85,111,.12);
+}
+.soldFeatureLogo{width:96px;height:96px;display:grid;place-items:center;border:1px solid #c7d9e7;border-radius:13px;background:#fff}.soldFeatureLogo img{width:88px;height:88px;object-fit:contain}.soldFeatureCopy{min-width:0}.soldFeatureCopy small,.soldFeaturePrice small{display:block;color:#60708c;font-size:8px;font-weight:900;letter-spacing:1px}.soldFeatureCopy h2{margin:4px 0 5px!important;padding:0!important;border:0!important;color:#102b56;font-size:clamp(24px,2.3vw,38px)!important;line-height:1.02;overflow-wrap:anywhere}.soldFeatureCopy p{margin:0;color:#52657e;font-size:13px}.soldFeaturePrice{min-width:145px;text-align:right}.soldFeaturePrice strong{display:block;margin:4px 0 9px;color:#087a6d;font-size:clamp(24px,2vw,34px);line-height:1}.soldFeaturePrice button{padding:9px 13px;border-radius:8px;background:#1766d7;color:#fff}
+
+@media(min-width:901px) and (max-height:900px){.soldTeamFeature{min-height:104px;margin-top:11px;padding:10px 13px;grid-template-columns:78px minmax(0,1fr) auto;gap:12px}.soldFeatureLogo{width:72px;height:72px}.soldFeatureLogo img{width:66px;height:66px}.soldFeatureCopy h2{font-size:clamp(21px,2vw,31px)!important}.soldFeaturePrice strong{font-size:25px}}
+@media(max-width:900px){.showcaseCard.soldShowcase{grid-template-rows:auto}.soldTeamFeature{grid-template-columns:76px minmax(0,1fr);margin-top:14px;padding:12px}.soldFeatureLogo{width:70px;height:70px}.soldFeatureLogo img{width:64px;height:64px}.soldFeaturePrice{grid-column:1/-1;text-align:left}}
