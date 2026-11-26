@@ -33,3 +33,8 @@ The mobile Player Showcase now always displays the player selector in the first 
 
 ## Compact Players filter design
 Desktop now uses a compact dark search bar, Filters count button, Sort control, quick status chips, one-row advanced filters, active chips, clear-all and result summary. Mobile uses search plus Filters/Sort controls, horizontally scrollable status pills and a bottom filter sheet with Reset and Show Players actions.
+
+
+### Mobile clear-filter update
+
+The Players page now shows a touch-friendly Clear all action on mobile whenever search or filters are active. The mobile filter sheet also includes Clear filters, which immediately resets search, status, role, category, phase, experience, team and sort, and refreshes the player list.

@@ -8,6 +8,7 @@
     $('#filterCount').textContent=n;
     $('#filterCount').classList.toggle('zero',n===0);
     $('#appliedFilterText').textContent=`${n} filter${n===1?'':'s'} applied`;
+      $('#resetFilters')?.classList.toggle('noActiveFilters',n===0&&!$('#search')?.value);
     $$('[data-status-chip]').forEach(b=>b.classList.toggle('active',b.dataset.statusChip===$('#status').value));
   }
   function setStatus(v){$('#status').value=v;$('#status').dispatchEvent(new Event('input',{bubbles:true}));sync()}
@@ -29,7 +30,11 @@
     $('#mobileFilterSheet').showModal();
   }
   $('#mobileApply').onclick=e=>{e.preventDefault();ids.forEach(id=>{const m=$('#mobile-'+id);if(m)$('#'+id).value=m.value});ids.forEach(id=>$('#'+id).dispatchEvent(new Event('input',{bubbles:true})));sync();$('#mobileFilterSheet').close()};
-  $('#mobileReset').onclick=()=>{ids.forEach(id=>{const m=$('#mobile-'+id);if(m)m.value=''});};
+  $('#mobileReset').onclick=()=>{
+      reset();
+      ids.forEach(id=>{const m=$('#mobile-'+id);if(m)m.value=''});
+      $('#mobileApply').textContent=`Show ${$('#playerResultCount').textContent}`;
+    };
   $('#closeFilterSheet').onclick=()=>$('#mobileFilterSheet').close();
   ids.concat(['status']).forEach(id=>$('#'+id)?.addEventListener('input',sync));
   new MutationObserver(sync).observe($('#activeFilters'),{childList:true,subtree:true});sync();
