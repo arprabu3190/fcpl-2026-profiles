@@ -30,3 +30,6 @@ The separate desktop and mobile layouts remain, but the light palette has been r
 
 ## Mobile Previous/Next navigation fix
 The mobile Player Showcase now always displays the player selector in the first row and two equal touch-friendly buttons in the second row: Previous and Next. The rules are scoped to #showcase and use explicit grid positions so older responsive CSS cannot hide or misplace the controls.
+
+## Compact Players filter design
+Desktop now uses a compact dark search bar, Filters count button, Sort control, quick status chips, one-row advanced filters, active chips, clear-all and result summary. Mobile uses search plus Filters/Sort controls, horizontally scrollable status pills and a bottom filter sheet with Reset and Show Players actions.
